@@ -1,0 +1,746 @@
+
+/*bassed*/
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+li {
+    list-style: none;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+/*bassed*/
+
+
+
+
+/*navigation*/
+.navigation {
+    margin: 0 auto;
+    display: flex;
+}
+
+
+.container {
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    width: 1280px;
+    margin: 0 auto;
+    height: 71px;
+}
+nav span {
+    display: flex;
+    align-items: center;
+}
+
+/**/
+nav span:first-child {
+    margin-right: 85px;
+}
+nav span:first-child a {
+    margin-right: 85px;
+}
+nav span:last-child {
+    margin-left: 85px;
+}
+nav span:last-child a{
+    /*margin-left: 85px;*/
+}
+/**/
+nav ul {
+    display: flex;
+    
+}
+nav li {
+
+}
+
+
+#link-1 {
+    color: #8C681B;
+}
+#link-3 {
+    margin: 0;
+}
+#link-4 {
+    margin: 0;
+    margin-top: 12px;
+    display: block;
+    margin-right: 72px;
+}
+#link-5 {
+    margin-top: 12px;
+    display: block;
+}
+
+#link-6 {
+    display: block;
+    border: 1px solid #000000;
+    width: 159px;
+    height: 39px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 53px;
+}
+/*navigation*/
+
+
+.fixedContainer{
+    width: 100%;
+    margin: 0 auto;
+    height: 800px;
+}
+
+.imgBox {
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.lenImg{
+    width: 100%;
+    margin: 0 auto;
+    height: 650px;
+    position: absolute;
+}
+
+
+.landingTitle{
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    position: relative;
+    top: 200px;
+}
+
+
+
+.textBox {
+    width: 900px;
+    margin: 0 auto;
+}
+
+.titleText {
+    font-size: 34px;
+}
+.aboutText {
+    margin-top: 20px;
+    font-size: 20px;
+    width: 1050px;
+}
+
+
+
+.aboutUsContainer {
+    width: 1200px;
+    margin: 0 auto;
+
+}
+.boxOne {
+    display: flex;
+    margin-top: 100px;
+}
+.shadowBox {
+    background-color: #322C27;
+    width: 550px;
+    height: 680px;
+    z-index: -1;
+    position: absolute;
+
+}
+
+.imgOne{
+    width: 700px;
+    height: 655px;
+    position: relative;
+    left: 30px;
+    top: 30px;
+}
+.oneText {
+    width: 700px;
+    font-size: 21px;
+    margin-left: 100px;
+    line-height: 35px;
+
+}
+.oneTextColor {
+    color: #000000;
+    font-size: 30px;
+}
+.boxTwoe {
+margin-top: 200px;
+    display: flex;
+    position: relative;
+
+}
+.twoText {
+    width: 700px;
+    font-size: 21px;
+    margin-left: 100px;
+    line-height: 35px;
+    position: relative;
+    right: 100px;
+}
+.twoTextColor {
+    color: #000000;
+    font-size: 30px;
+}
+.boxTree {
+    display: flex;
+     margin-top: 200px;
+}
+
+
+.workButton{
+    position: relative;
+    left: 650px;
+    top: -16px;
+    background-color: #322C27;
+    color: white;
+    padding: 25px 140px;
+    border-radius: 9px;
+}
+
+.workButton:hover{
+    border: 1px solid #2B2A29;
+    background-color: white;
+    color: #2B2A29;
+    transition: 0.4s;
+}
+
+.rewuesContainer{
+    width: 1280px;
+    height: 700px;
+    margin: 0 auto;
+    position: relative;
+    top: 170px;
+}
+
+.rewuesBox{
+    display: flex;
+    width: 1280px;
+    margin-top: 100px;
+}
+
+.rewuesImg{
+    position: relative;
+    left: 200px;
+    margin-top: 50px;
+}
+.rewuesContent{
+    width: 500px;
+    background-color: #d9d9d9;
+    height: 500px;
+    border-radius: 10px;
+}
+
+.rewText{
+    text-align: center;
+    width: 300px;
+}
+
+.rewuesButton{
+    background-color: #2B2A29;
+    color: white;
+    padding: 30px 179px;
+    position: relative;
+    top: 90px;
+}
+
+.formAboutUs{
+    width: 1280px;
+    height: 700px;
+    margin: 0 auto;
+    position: relative;
+    top: 700px;
+}
+
+
+.formContant{
+    display: flex;
+}
+
+.formColumnOne{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.nameInput{
+    width: 500px;
+    font-size: 25px;
+    padding: 20px;
+    height: 30px;
+    background-color: #322C27;
+    margin-top: 50px;
+}
+
+.nameInput::placeholder {
+    color: white; /* Здесь можно указать желаемый цвет */
+  }
+
+.submitButton{
+    width: 540px;
+    height: 70px;
+    font-size: 30px;
+    border-radius: 2px;
+    border: 2px solid #2B2A29;
+    background-color: white;
+    color: #322C27;
+    margin-top: 60px;
+}
+
+
+
+.textFormColor{
+    font-size: 30px;
+
+}
+
+
+.formColumn{
+    margin-top: 50px;
+    font-size: 27px;
+}
+
+.numberForm{
+    font-size: 50px;
+    margin-top: 100px;
+}
+
+/*footer*/
+
+
+footer {
+    
+    margin-top: 718px;
+    background: #2B2A29;
+    width: 100%;
+    height: 311px;
+}
+.footer-block {
+    width: 1280px;
+    height: 311px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+footer img {
+    /*margin-top: 75px;
+    border-right: solid white;
+    margin-left: 15px;*/
+}
+
+/**/
+
+
+
+
+
+
+#footer-border-1 {
+    width: 0;
+    height: 106px;
+    border: solid 2px white;
+    position: relative;
+    left: -1085px;
+    margin-top: 10px;
+   
+    
+
+    
+}
+#footer-border-2 {
+    width: 0;
+    height: 106px;
+    border: solid 2px white;
+    position: relative;
+    left: -690px;
+    margin-top: 10px;
+    
+    
+}
+#footer-border-3 {
+    width: 0;
+    height: 106px;
+    border: solid 2px white;
+    position: relative;
+    left: -165px;
+    margin-top: 10px;
+    
+}
+
+
+
+
+
+
+/**/
+#footer-block-link-1 {
+    display: flex;
+}
+#footer-block-link-2 {
+    display: flex;
+    margin-left: 133px;
+    margin-top: 25px;
+}
+
+#footer-block-link-1-content-1 a {
+    display: block;
+    color: white;
+    margin-left: 181px;
+    margin-top: 10px;
+    font-size: 17px;
+}
+
+#footer-block-link-1-content-2 a {
+    display: block;
+    color: white;
+    margin-left: 46px;
+    margin-top: 10px;
+    font-size: 17px;
+}
+#footer-block-link-2-content-1 a {
+    display: block;
+    color: white;
+    margin-top: 10px;
+    font-size: 17px;
+}
+#footer-block-link-2-content-2 a {
+    display: block;
+    color: white;
+    margin-left: 62px;
+    margin-top: 10px;
+    font-size: 17px;
+}
+
+
+#footer-icons {
+    margin-left: 88px;
+}
+footer i {
+    font-size: 30px;
+    color: white;
+    margin-left: 10px;
+}
+
+footer i:hover {
+    color: rgb(175, 175, 175);
+    transition: 0.2s;
+}
+.footer-adress {
+    width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    position: relative;
+    top: -20px;
+    color: white;
+    
+
+}
+.footer-adress h1, p {
+
+    font-size: 17px;
+    font-weight: 400;
+    
+    
+}
+
+.footer-adress h1 {
+    position: relative;
+    top: -20px;
+    margin-left: 219px;
+}
+
+.footer-adress p {
+    position: relative;
+    top: -20px;
+    margin-left: 175px;
+}
+
+
+.menu-btn {
+	width: 30px;
+	height: 30px;
+	position: relative;
+	z-index:2;
+	overflow: hidden;
+    display: none;
+    z-index: 999999999;
+}
+.menu-btn span {
+	width: 30px;
+	height: 2px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: #222222;
+	transition: all 0.5s;
+}
+.menu-btn span:nth-of-type(2) {
+	top: calc(50% - 5px);
+}
+.menu-btn span:nth-of-type(3) {
+	top: calc(50% + 5px);
+}
+
+.logoTwo{
+    display: none;
+}
+
+@media (max-width: 1270px) {
+
+
+    .logo{
+   display: none;
+    }
+
+    .logoTwo{
+        display: block;
+        z-index: 9999999;
+        position: fixed;
+        width: 80px;
+        padding-left: 30px;
+        top: 1px;
+    }
+
+    .navigation {
+        margin: 0 auto;
+        display: block;
+        background-color: #222222;
+        position: fixed;
+        top: -3360px;
+        width: 100%;
+        height: 100%;
+        z-index: 99999;
+    }
+
+    .navigation.active{
+        top: 60px;
+        transition: 0.4s;
+    }
+    
+    
+    
+ 
+    
+    nav {
+        position: fixed;
+        display: block;
+       height: 60px;
+
+    }
+    nav span {
+        display: block;
+    }
+    
+    /**/
+    nav span:first-child {
+        margin: 0;
+    }
+    nav span:first-child a {
+        margin: 0;
+    }
+    nav span:last-child {
+margin: 0;
+    }
+    nav span:last-child a{
+        /*margin-left: 85px;*/
+    }
+    /**/
+    nav ul {
+        display: block;
+        position: relative;
+        text-align: center;
+        
+    }
+    nav li {
+        margin-top: 60px;
+        display: block;
+        color: #ffffff;
+    }
+    
+    li a{
+        color: white;
+    }
+    #link-1 {
+        color: #ffffff;
+    }
+    #link-3 {
+        margin: 0;
+        display: block;
+        position: relative;
+        margin: 0;
+
+    }
+    #link-4 {
+        display: block;
+        position: relative;
+        margin: 0;
+
+    }
+    #link-5 {
+        margin: 0;
+        display: block;
+        position: relative;
+
+
+    }
+    
+    .listItem {
+        display: none;
+        
+    }
+
+
+
+
+
+
+.menu-btn {
+    position: fixed;
+    right: 0;
+    padding-right: 30px;
+    display: block;
+    top: 0;
+}
+
+body{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.fixedContainer{
+    margin-top: 70px;
+}
+
+.imgBox{
+    width: 100%;
+    position: relative;
+}
+
+.lenImg{
+    position: absolute;
+    width: 100%;
+}
+
+
+.none{
+    display: none;
+}
+
+
+.textBox {
+    width: 100%;
+}
+.titleText {
+    width: 70%;
+
+}
+.aboutText {
+    width: 70%;
+    line-height: 30px;
+
+}
+
+.boxOne {
+    display: block;
+    width: 80%;
+    margin-top: 200px;
+
+}
+.shadowBox {
+    display: none;
+}
+.imgOne {
+    width: 100%;
+
+    position: relative;
+    top: 700px;
+}
+.oneText {
+    position: relative;
+    top: -700px;
+    text-align: center;
+    width: 100%;
+}
+.oneTextColor {
+}
+.boxTwoe {
+    display: block;
+    width: 80%;
+    left: 100px;
+
+}
+.twoText {
+    text-align: center;
+    width: 100%;
+}
+.twoTextColor {
+}
+.boxTree {
+    display: block;
+    width: 80%;
+
+}
+
+.workButton {
+    position: relative;
+    left: 40px;
+}
+
+  }
+  
+
+  .aboutUsContainer{
+    width: 100%;
+    position: relative;
+    left: -100px;
+  }
+
+/*footer*/
+
+/**/
+
+
+
+
+
+
+@media (max-width:1280px) {
+    main img { 
+        width: 1280px;
+    }
+    .section-1 {
+        width: 1280px;
+    }
+    footer {
+        width: 1280px;
+    }
+}
+
+@media (min-width:1920px) {
+
+    .imgBox{
+        position: relative;
+        margin: 0 auto;
+        width: 1920px;
+
+    }
+    .lenImg {
+
+        margin: 0 auto;
+    }
+
+}
