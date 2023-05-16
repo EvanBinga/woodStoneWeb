@@ -515,7 +515,7 @@ main p {
 .section-2-video {
     width: 1192px;
     height: 615px;
-    background-image: url(/woodStone/asset/img/section2-video.svg);
+    background-image: url(/asset/img/section2-video.svg);
     margin: 0 auto;
     margin-top: 147px;
     
@@ -545,7 +545,7 @@ main p {
     margin-top: 173px;
     width: 1280px;
     height: 634px;
-    background-image: url(/woodStone/asset/img/section-3-form.svg);
+    background-image: url(/asset/img/section-3-form.svg);
 }
 
 .section-3-form-block {
