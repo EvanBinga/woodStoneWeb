@@ -51,17 +51,13 @@ nav span:first-child a {
 nav span:last-child {
     margin-left: 85px;
 }
-nav span:last-child a{
-    /*margin-left: 85px;*/
-}
+
 /**/
 nav ul {
     display: flex;
     
 }
-nav li {
 
-}
 
 
 #link-1 {
@@ -113,3 +109,286 @@ nav li {
     font-size: 50px;
 }
 /*tittle-block*/
+
+.contact-block {
+    margin-top: 50px;
+    margin-left: 130px;
+}
+
+.contact-block span {
+    display: block;
+    margin-top: 30px;
+}
+
+.contact-block p, .contact-block h1 {
+    font-weight: 400;
+}
+.contact-block h1 {
+    margin-top: 10px;
+}
+
+
+
+.map {
+    margin-top: 50px;
+}
+.map-block { 
+    margin: 0 auto;
+}
+
+
+/*form*/
+.section-form {
+    width: 1280px;
+    margin: 0 auto;
+}
+.form-content {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.form-block-1 h1{
+    font-weight: 400;
+    font-size: 40px;
+}
+.form-block-1 p{
+    font-size: 25px;
+    line-height: 35px;
+    margin-top: 30px;
+}
+.form-block-1 h2{
+    font-weight: 400;
+    font-size: 40px;
+    margin-top: 30px;
+}
+
+
+.form-block-2 {
+    display: flex;
+    flex-direction: column;
+}
+.form-block-2 input {
+    width: 420px;
+    height: 60px;
+    border: none;
+    background: #322C27;
+    font-size: 25px;
+    color: white;
+    padding-left: 30px;
+    
+}
+.form-block-2 input:focus {
+    outline: none;
+}
+::placeholder {
+    color: white;
+}
+.form-block-2 input:nth-child(2) {
+    margin-top: 40px;
+}
+.form-block-2 a {
+    display: block;
+    width: 380px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px;
+    margin-top: 40px;
+    font-size: 25px;
+}
+.form-block-2 p {
+    margin-top: 8px;
+}
+
+
+/*form*/
+
+
+
+
+
+
+
+/*footer*/
+
+
+footer {
+
+    margin-top: 118px;
+    background: #2B2A29;
+    width: 100%;
+    height: 311px;
+}
+
+.footer-block {
+    width: 1280px;
+    height: 311px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+footer img {
+    /*margin-top: 75px;
+    border-right: solid white;
+    margin-left: 15px;*/
+}
+
+/**/
+
+
+
+
+
+
+#footer-border-1 {
+    width: 0;
+    height: 106px;
+    border: solid 2px white;
+    position: relative;
+    left: -1085px;
+    margin-top: 10px;
+
+
+
+
+}
+
+#footer-border-2 {
+    width: 0;
+    height: 106px;
+    border: solid 2px white;
+    position: relative;
+    left: -690px;
+    margin-top: 10px;
+
+
+}
+
+#footer-border-3 {
+    width: 0;
+    height: 106px;
+    border: solid 2px white;
+    position: relative;
+    left: -165px;
+    margin-top: 10px;
+
+}
+
+
+
+
+
+
+/**/
+#footer-block-link-1 {
+    display: flex;
+}
+
+#footer-block-link-2 {
+    display: flex;
+    margin-left: 133px;
+    margin-top: 25px;
+}
+
+#footer-block-link-1-content-1 a {
+    display: block;
+    color: white;
+    margin-left: 181px;
+    margin-top: 10px;
+    font-size: 17px;
+}
+
+#footer-block-link-1-content-2 a {
+    display: block;
+    color: white;
+    margin-left: 46px;
+    margin-top: 10px;
+    font-size: 17px;
+}
+
+#footer-block-link-2-content-1 a {
+    display: block;
+    color: white;
+    margin-top: 10px;
+    font-size: 17px;
+}
+
+#footer-block-link-2-content-2 a {
+    display: block;
+    color: white;
+    margin-left: 62px;
+    margin-top: 10px;
+    font-size: 17px;
+}
+
+
+#footer-icons {
+    margin-left: 88px;
+}
+
+footer i {
+    font-size: 30px;
+    color: white;
+    margin-left: 10px;
+}
+
+footer i:hover {
+    color: rgb(175, 175, 175);
+    transition: 0.2s;
+}
+
+.footer-adress {
+    width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    position: relative;
+    top: -20px;
+    color: white;
+
+
+}
+
+.footer-adress h1,
+p {
+
+    font-size: 17px;
+    font-weight: 400;
+
+
+}
+
+.footer-adress h1 {
+    position: relative;
+    top: -20px;
+    margin-left: 219px;
+}
+
+.footer-adress p {
+    position: relative;
+    top: -20px;
+    margin-left: 175px;
+}
+
+
+
+
+
+/*footer*/
+
+
+
+
+
+
+@media (max-width:1280px) {
+
+    footer {
+        width: 1280px;
+    }
+
+    .map {
+        width: 1280px;
+    }
+}
