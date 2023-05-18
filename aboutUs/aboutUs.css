@@ -499,6 +499,10 @@ footer i:hover {
     display: none;
 }
 
+.adaptiveFooter{
+    display: none;
+}
+
 @media (max-width: 1270px) {
 
 
@@ -523,7 +527,8 @@ footer i:hover {
         top: -3360px;
         width: 100%;
         height: 100%;
-        z-index: 99999;
+        z-index: 99999999;
+
     }
 
     .navigation.active{
@@ -539,6 +544,11 @@ footer i:hover {
         position: fixed;
         display: block;
        height: 60px;
+       top: 0;
+       width: 100%;
+       left: 0;
+       background-color: #ffffff;
+       z-index: 999999;
 
     }
     nav span {
@@ -553,7 +563,7 @@ footer i:hover {
         margin: 0;
     }
     nav span:last-child {
-margin: 0;
+        margin: 0;
     }
     nav span:last-child a{
         /*margin-left: 85px;*/
@@ -623,16 +633,29 @@ body{
 
 .fixedContainer{
     margin-top: 70px;
+    position: relative;
+    width: 100%;
+    
 }
+
 
 .imgBox{
     width: 100%;
     position: relative;
 }
 
+
+.landingTitle{
+    position: relative;
+    top: 130px;
+    width: 100%;
+}
+
 .lenImg{
     position: absolute;
     width: 100%;
+    margin: 0 auto;
+
 }
 
 
@@ -643,6 +666,7 @@ body{
 
 .textBox {
     width: 100%;
+    text-align: center;
 }
 .titleText {
     width: 70%;
@@ -657,48 +681,200 @@ body{
 .boxOne {
     display: block;
     width: 80%;
-    margin-top: 200px;
+    margin-top: 300px;
+    position: relative;
 
 }
 .shadowBox {
     display: none;
 }
-.imgOne {
-    width: 100%;
 
+
+.imgOne {
     position: relative;
-    top: 700px;
+    height: 100%;
+    width: 90%;
+    left: 130px;
 }
 .oneText {
     position: relative;
-    top: -700px;
     text-align: center;
     width: 100%;
+    margin-top: 100px;
 }
-.oneTextColor {
-}
+
 .boxTwoe {
     display: block;
     width: 80%;
     left: 100px;
+    margin-top: 350px;
 
 }
 .twoText {
     text-align: center;
     width: 100%;
+    margin-bottom: 100px;
 }
-.twoTextColor {
+
+.imgTwo{
+    position: relative;
+    height: 100%;
+    width: 90%;
+    left: 30px;
 }
+
+
 .boxTree {
     display: block;
     width: 80%;
+    margin-top: 400px;
 
 }
 
 .workButton {
     position: relative;
-    left: 40px;
+    width: 100%;
+    left: 40%;
+    top: 100px;
 }
+
+
+.rewuesContainer{
+    width: 100%;
+
+}
+
+
+
+.rewuesBox{
+    display: block;
+    width: 100%;
+}
+
+
+.rewuesImg{
+    display: none;
+}
+
+.rewuesContent{
+    margin-top: 100px;
+    width: 100%;
+    text-align: center;
+}
+
+.rewuesButton{
+    font-size: 10px;
+    padding: 20px 150px;
+    
+}
+
+
+.formAboutUs{
+    margin-top: 1300px;
+    width: 100%;
+    margin: 0 auto;
+    top: 1900px;
+}
+
+.formContant{
+    display: block;
+    width: 100%;
+}
+
+.formColumn{
+    position: relative;
+    width: 100%;
+
+}
+
+
+
+
+.formColumnOne{
+    width: 100%;
+    position: relative;
+}
+
+.numberForm{
+    width: 100%;
+}
+
+
+
+.formAboutUs{
+    width: 100%;
+}
+
+.formText{
+    width: 400px;
+}
+
+.textFormColor{
+    width: 300px;
+
+}
+
+.numberForm{
+    width: 400px;
+    font-size: 45px;
+
+}
+
+footer{
+    margin-top: 2018px;
+    background: #222222;
+    position: absolute;
+    width: 100%;
+    display: block;
+    height: 1000px;
+}
+.footer-block {
+display: none;
+}
+
+.footer-adress{
+    display: none;
+}
+
+.adaptiveFooter{
+    display: block;
+    text-align: center;
+}
+
+
+#footerIcons{
+    position: relative;
+    top: 400px;
+}
+
+
+.adaptivList {
+}
+.adaptivListItem {
+    color: #ffffff;
+    font-size: 37px;
+    margin-top: 40px;
+}
+.fa-brandsfa-twitter  {
+}
+.fa-twitter {
+    font-size: 60px;
+}
+.fa-vk {
+    font-size: 60px;
+}
+.fa-telegram {
+    font-size: 60px;
+}
+.footerAdress {
+    color: #ffffff;
+}
+.footerNumber {
+font-size: 35px;
+color: #FFFFFf;
+margin-top: 80px;
+}
+
 
   }
   
@@ -726,7 +902,7 @@ body{
         width: 1280px;
     }
     footer {
-        width: 1280px;
+        width: 100%;
     }
 }
 
@@ -741,6 +917,41 @@ body{
     .lenImg {
 
         margin: 0 auto;
+    }
+
+}
+
+
+@media (max-width:320px) {
+
+
+
+    .rewuesButton{
+        padding: 20px 50px;
+    }
+
+    .nameInput{
+        width: 100%;
+    }
+
+    .submitButton{
+        width: 100%;
+    }
+}
+@media (max-width:480px) {
+
+
+
+    .rewuesButton{
+        padding: 20px 50px;
+    }
+
+    .nameInput{
+        width: 100%;
+    }
+
+    .submitButton{
+        width: 100%;
     }
 
 }
