@@ -22,6 +22,7 @@ a {
 .navigation {
     margin: 0 auto;
     display: flex;
+    margin-top: 8px;
     
 }
 
@@ -50,16 +51,11 @@ nav span:first-child a {
 nav span:last-child {
     margin-left: 85px;
 }
-nav span:last-child a{
-    /*margin-left: 85px;*/
-}
+
 /**/
 nav ul {
     display: flex;
     
-}
-nav li {
-
 }
 
 

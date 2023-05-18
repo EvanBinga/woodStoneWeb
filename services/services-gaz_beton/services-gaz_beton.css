@@ -22,6 +22,7 @@ a {
 .navigation {
     margin: 0 auto;
     display: flex;
+    margin-top: 8px;
 
 }
 
@@ -54,9 +55,7 @@ nav span:last-child {
     margin-left: 85px;
 }
 
-nav span:last-child a {
-    /*margin-left: 85px;*/
-}
+
 
 /**/
 nav ul {
@@ -64,7 +63,6 @@ nav ul {
 
 }
 
-nav li {}
 
 
 #link-1 {
@@ -135,15 +133,7 @@ main {
     
 }
 
-.main-slider-btn p {
-    /*
-    width: 250px;
-    height: 40px;
-    border-right: 1px solid;
-    cursor: pointer;
-    text-align: center;
-    */
-}
+
 #gaz-btn {
     width: 250px;
     height: 40px;
@@ -158,8 +148,6 @@ main {
     background: #322C27;
     color: white;
 }
-
-
 
 
 
@@ -262,20 +250,7 @@ footer {
     display: flex;
     align-items: center;
 }
-
-footer img {
-    /*margin-top: 75px;
-    border-right: solid white;
-    margin-left: 15px;*/
-}
-
 /**/
-
-
-
-
-
-
 #footer-border-1 {
     width: 0;
     height: 106px;
@@ -283,10 +258,6 @@ footer img {
     position: relative;
     left: -1085px;
     margin-top: 10px;
-
-
-
-
 }
 
 #footer-border-2 {
@@ -296,8 +267,6 @@ footer img {
     position: relative;
     left: -690px;
     margin-top: 10px;
-
-
 }
 
 #footer-border-3 {
@@ -307,14 +276,7 @@ footer img {
     position: relative;
     left: -165px;
     margin-top: 10px;
-
 }
-
-
-
-
-
-
 /**/
 #footer-block-link-1 {
     display: flex;
