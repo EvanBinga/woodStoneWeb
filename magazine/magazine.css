@@ -90,9 +90,136 @@ nav ul {
 .tittle {
     width: 1280px;
     margin: 0 auto;
-    margin-top: 100px;
+    margin-top: 40px;
 }
 .tittle h1 {
     font-size: 50px;
     font-weight: 400;
+}
+.link-row {
+    width: 1280px;
+    margin: 0 auto;
+    margin-top: 35px;
+}
+.link-row ul {
+    display: flex;
+}
+.link-row ul a {
+    width: 180px;
+    height: 25px;
+    background: #EEEFEF;
+    margin-left: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.15s;
+}
+.link-row li a:hover {
+    background: black;
+    color: white;
+}
+.link-row h2 {
+    font-weight: 400;
+    width: 970px;
+    font-size: 40px;
+    margin-top: 5px;
+}
+.date-link-row {
+    display: flex;
+    margin-top: 15px;
+}
+.date-link-row a {
+    color: #8C681B;
+    margin-left: 5px;
+}
+
+
+.img {
+    width: 1280px;
+    margin: 0 auto;
+    display: flex;
+}
+.img img {
+    width: 900px;
+}
+
+.widget {
+    width: 300px;
+    height: 245px;
+    box-shadow: 0px 0px 21px rgba(0, 0, 0, 0.05), 0px 100px 80px rgba(0, 0, 0, 0.07), 0px 41.7776px 33.4221px rgba(0, 0, 0, 0.0503198), 0px 22.3363px 17.869px rgba(0, 0, 0, 0.0417275), 0px 12.5216px 10.0172px rgba(0, 0, 0, 0.035), 0px 6.6501px 5.32008px rgba(0, 0, 0, 0.0282725), 0px 2.76726px 2.21381px rgba(0, 0, 0, 0.0196802);
+    border-radius: 64px 0px;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.widget h1 {
+    margin-top: 25px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.widget input {
+    border: 1px solid #D6D6D6;
+    border-radius: 2px;
+    width: 235px;
+    height: 40px;
+    margin-top: 10px;
+    font-size: 20px;
+    outline: none;
+    padding-left: 15px;
+
+}
+.widget button {
+    border: none;
+    background: #8C681B;
+    color: white;
+    margin-top: 10px;
+    width: 250px;
+    height: 35px;
+    font-size: 18px;
+}
+.widget p {
+    color: #989898;
+    width: 250px;
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+
+
+.news {
+    width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 80px;
+}
+.news-block {
+    width: 610px;
+    height: 400px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    border-top: solid 2px;
+}
+.news-block-content {
+    width: 280px;
+    height: 180px;
+    border-bottom: 1px solid;
+}
+
+.news-block-content h1 {
+    font-weight: 400;
+    font-size: 15px;
+    margin-top: 12px;
+}
+.news-block-content p {
+    font-size: 19px;
+    margin-top: 12px;
+}
+.news-block-content a {
+    display: block;
+    color: #8C681B;
+    margin-top: 12px;
 }

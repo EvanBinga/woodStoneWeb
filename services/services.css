@@ -3,20 +3,16 @@
     margin: 0;
     padding: 0;
 }
-
 body {
     font-family: 'Montserrat', sans-serif;
 }
-
 li {
     list-style: none;
 }
-
 a {
     color: black;
     text-decoration: none;
 }
-
 /*bassed*/
 
 
@@ -57,17 +53,12 @@ nav span:last-child {
     margin-left: 85px;
 }
 
-nav span:last-child a {
-    /*margin-left: 85px;*/
-}
-
 /**/
 nav ul {
     display: flex;
 
 }
 
-nav li {}
 
 
 #link-1 {
@@ -344,11 +335,6 @@ footer {
     align-items: center;
 }
 
-footer img {
-    /*margin-top: 75px;
-    border-right: solid white;
-    margin-left: 15px;*/
-}
 
 /**/
 
