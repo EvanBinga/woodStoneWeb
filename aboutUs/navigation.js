@@ -12,3 +12,5 @@ function toggleBurgerMenu() {
   // Добавляем/удаляем класс "active" у элемента меню
   burgerMenu.classList.toggle('active');
 }
+
+
