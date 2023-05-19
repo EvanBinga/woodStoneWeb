@@ -1019,6 +1019,215 @@ footer i:hover {
 }
 
 
+.menu-btn {
+	width: 30px;
+	height: 30px;
+	position: relative;
+	z-index:2;
+	overflow: hidden;
+    display: none;
+    z-index: 999999999;
+}
+.menu-btn span {
+	width: 30px;
+	height: 2px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: #222222;
+	transition: all 0.5s;
+}
+.menu-btn span:nth-of-type(2) {
+	top: calc(50% - 5px);
+}
+.menu-btn span:nth-of-type(3) {
+	top: calc(50% + 5px);
+}
+
+.logoTwo{
+    display: none;
+}
+
+.adaptiveFooter{
+    display: none;
+}
+
+
+
+@media (max-width: 1270px) {
+
+
+.callbackButton{
+    display: none;
+}
+
+
+    .logo{
+   display: none;
+    }
+
+    .logoTwo{
+        display: block;
+        z-index: 9999999;
+        position: fixed;
+        width: 80px;
+        padding-left: 30px;
+        top: 1px;
+    }
+
+    .navigation {
+        margin: 0 auto;
+        display: block;
+        background-color: #222222;
+        position: fixed;
+        top: -3360px;
+        width: 100%;
+        height: 100%;
+        z-index: 99999999;
+
+    }
+
+    .navigation.active{
+        top: 60px;
+        transition: 0.4s;
+    }
+    
+    
+    
+ 
+    
+    nav {
+        position: fixed;
+        display: block;
+       height: 60px;
+       top: 0;
+       width: 100%;
+       left: 0;
+       background-color: #ffffff;
+       z-index: 999999;
+
+    }
+    nav span {
+        display: block;
+    }
+    
+    /**/
+    nav span:first-child {
+        margin: 0;
+    }
+    nav span:first-child a {
+        margin: 0;
+    }
+    nav span:last-child {
+        margin: 0;
+    }
+    nav span:last-child a{
+        /*margin-left: 85px;*/
+    }
+    /**/
+    nav ul {
+        display: block;
+        position: relative;
+        text-align: center;
+        
+    }
+    nav li {
+        margin-top: 60px;
+        display: block;
+        color: #ffffff;
+    }
+    
+    li a{
+        color: white;
+    }
+    #link-1 {
+        color: #ffffff;
+    }
+    #link-3 {
+        margin: 0;
+        display: block;
+        position: relative;
+        margin: 0;
+
+    }
+    #link-4 {
+        display: block;
+        position: relative;
+        margin: 0;
+
+    }
+    #link-5 {
+        margin: 0;
+        display: block;
+        position: relative;
+
+
+    }
+    
+    .listItem {
+        display: none;
+        
+    }
+
+
+
+.logo{
+    display: none;
+}
+
+
+.menu-btn {
+    position: fixed;
+    right: 0;
+    padding-right: 30px;
+    display: block;
+    top: 0;
+}
+
+body{
+    width: 100%;
+    margin: 0 auto;
+}
+
+main{
+    width: 100%;
+
+}
+
+.landosImg{
+    width: 100em;
+}
+
+.main-text{
+    width: 100%;
+    font-size: 14px;
+}
+
+.landosText{
+    width: 100%;
+    font-size: 15px;
+}
+
+.landosTextOne{
+    font-size: 15px;
+    width: 100%;
+    position: relative;
+    left: 10000px;
+}
+
+
+
+
+/*main*/
+
+
+.none{
+    display: none;
+}
+
+
+}
 
 
 
@@ -1033,7 +1242,7 @@ footer i:hover {
 
 @media (max-width:1280px) {
     main img { 
-        width: 1280px;
+        width: 100%;
     }
     .section-1 {
         width: 1280px;
