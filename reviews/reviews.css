@@ -1,0 +1,264 @@
+/*bassed*/
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+li {
+    list-style: none;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+/*bassed*/
+
+
+/*navigation*/
+.navigation {
+    margin: 0 auto;
+    display: flex;
+    margin-top: 8px;
+    
+}
+
+.container {
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    width: 1280px;
+    margin: 0 auto;
+    height: 71px;
+}
+nav span {
+    display: flex;
+    align-items: center;
+}
+
+/**/
+nav span:first-child {
+    margin-right: 85px;
+}
+nav span:first-child a {
+    margin-right: 85px;
+}
+nav span:last-child {
+    margin-left: 85px;
+}
+
+/**/
+nav ul {
+    display: flex;
+    
+}
+
+
+#link-1 {
+    color: #8C681B;
+}
+#link-3 {
+    margin: 0;
+}
+#link-4 {
+    margin: 0;
+    margin-top: 12px;
+    display: block;
+    margin-right: 72px;
+}
+#link-5 {
+    margin-top: 12px;
+    display: block;
+}
+
+#link-6 {
+    display: block;
+    border: 1px solid #000000;
+    width: 159px;
+    height: 39px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 53px;
+}
+/*navigation*/
+
+/*tittle-block*/
+.tittle {
+    width: 1280px;
+    margin: 0 auto;
+}
+.tittle-block { 
+    width: 500px;
+    margin-top: 25px;
+    border-bottom: solid 1px;
+    border-top: solid 1px;
+    line-height: 2.5;
+    display: flex;
+    justify-content: center;
+}
+.tittle-block h1{
+    font-weight: 400;
+    font-size: 50px;
+}
+
+/*tittle-block*/
+
+
+/*slider*/
+.slider-row {
+    margin: 0 auto;
+    margin-top: 10px;
+    min-width: 1280px;
+    max-width: 1920px;
+    background: #322C27;
+}
+.slider-navigation {
+    width: 1280px;
+    margin: 0 auto;
+    display: flex;
+}
+.slider-navigation p {
+    color: white;
+    font-size: 35px;
+    margin-left: 150px;
+}
+.buttons {
+    margin-left: 761px;
+    margin-top: 21px;
+}
+.buttons button {
+    border: none;
+    background: none;
+}
+.slider-content {
+    margin: 0 auto;
+    min-width: 1280px;
+    max-width: 1920px;
+    background-image: url(/Houses/img/houses-img-1.png);
+    background-size: cover;
+    height: 600px;
+}
+.slider-content h1 {
+    color: white;
+    font-weight: 400;
+    font-size: 40px;
+    padding-top: 80px;
+    margin-left: 80px;
+}
+.slider-content p {
+    width: 550px;
+    margin-top: 40px;
+    margin-left: 80px;
+    line-height: 1.5;
+    color: white;
+    font-weight: 400;
+    font-size: 40px;
+}
+.slider-content a {
+    width: 300px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 2px white;
+    background: #322C27;
+    border-radius: 6px;
+    color: white;
+    font-size: 20px;
+    margin-left: 80px;
+    margin-top: 40px;
+}
+/*slider*/
+
+
+
+
+/**/
+
+.block-reviews {
+    width: 1280px;
+    margin: 0 auto;
+}
+.section-4-blocks {
+    width: 1280px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.section-4-row {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 80px;
+
+
+}
+.section-4-blocks-one div:nth-child(1) {
+    width: 564px;
+    height: 73px;
+    background: #2B2A29;
+}
+.section-4-blocks-one div:nth-child(2) {
+    width: 564px;
+    height: 805px;
+    background: #D9D9D9;
+}
+.section-4-blocks-two div:nth-child(1) {
+    width: 567px;
+    height: 73px;
+    background: #2B2A29;
+}
+.section-4-blocks-one h1 {
+    padding-top: 47px;
+    text-align: center;
+    color: #322C27;
+    font-weight: 400;
+    font-size: 35px
+}
+.section-4-blocks-one p {
+    width: 436px;
+    height: 240px;
+    color: #322C27;
+    margin: 0 auto;
+    margin-top: 24px;
+    line-height: 30px;
+    font-size: 20px;
+    font-weight: 400;
+}
+.section-4-blocks-one img {
+    margin-top: 82px;
+}
+.section-4-blocks-one a {
+    display: block;
+    width: 564px;
+    height: 83px;
+    background: #2B2A29;
+    border-radius: 0px 0px 7.03297px 7.03297px;
+    color: #FFFFFF;
+    font-size: 21.0989px;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -4px;
+}
+
+#reviews-link {
+    display: block;
+    border: 2px solid #322C27;
+    border-radius: 7px;
+    width: 364px;
+    height: 65px;
+    color: #322C27;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 113px;
+    margin-left: 48px;
+
+}
+/**/

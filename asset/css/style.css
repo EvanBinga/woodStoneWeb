@@ -91,9 +91,7 @@ nav ul {
 
 
 /*main*/
-main {
-    
-}
+
 main img {
     position: absolute;
     width: 100%;
@@ -168,9 +166,7 @@ main p {
     margin-right: 25px;
     border-radius: 0px 23.3379px;
 }
-.main-row-one div:nth-child(1) {
-    
-}
+
 .main-row-one div:nth-child(1) h1 {
     font-weight: 700;
     font-size: 23px;
@@ -797,9 +793,7 @@ main p {
     height: 482px;
 }
 /**/
-#s5-b1 {
 
-}
 
 #s5-b1 h1 {
     color: #FFFFFF;
@@ -885,11 +879,7 @@ footer {
     display: flex;
     align-items: center;
 }
-footer img {
-    /*margin-top: 75px;
-    border-right: solid white;
-    margin-left: 15px;*/
-}
+
 
 /**/
 

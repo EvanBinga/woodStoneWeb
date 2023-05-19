@@ -108,8 +108,8 @@ nav ul {
     font-weight: 400;
     font-size: 50px;
 }
-/*tittle-block*/
 
+/*tittle-block*/
 .contact-block {
     margin-top: 50px;
     margin-left: 130px;
@@ -126,6 +126,7 @@ nav ul {
 .contact-block h1 {
     margin-top: 10px;
 }
+
 
 
 
@@ -229,11 +230,6 @@ footer {
     align-items: center;
 }
 
-footer img {
-    /*margin-top: 75px;
-    border-right: solid white;
-    margin-left: 15px;*/
-}
 
 /**/
 
