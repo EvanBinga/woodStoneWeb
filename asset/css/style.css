@@ -91,7 +91,9 @@ nav ul {
 
 
 /*main*/
-
+main {
+    
+}
 main img {
     position: absolute;
     width: 100%;
@@ -166,7 +168,9 @@ main p {
     margin-right: 25px;
     border-radius: 0px 23.3379px;
 }
-
+.main-row-one div:nth-child(1) {
+    
+}
 .main-row-one div:nth-child(1) h1 {
     font-weight: 700;
     font-size: 23px;
@@ -793,7 +797,9 @@ main p {
     height: 482px;
 }
 /**/
+#s5-b1 {
 
+}
 
 #s5-b1 h1 {
     color: #FFFFFF;
@@ -879,7 +885,11 @@ footer {
     display: flex;
     align-items: center;
 }
-
+footer img {
+    /*margin-top: 75px;
+    border-right: solid white;
+    margin-left: 15px;*/
+}
 
 /**/
 
@@ -1044,9 +1054,18 @@ footer i:hover {
 }
 
 
+.imgText{
+    display: none;
+}
 
-@media (max-width: 1270px) {
 
+.adaptiveMain{
+    display: none;
+}
+
+@media (max-width: 880px) {
+
+      
 
 .callbackButton{
     display: none;
@@ -1180,30 +1199,171 @@ body{
     margin: 0 auto;
 }
 
-main{
+main {
     width: 100%;
 
 }
 
-.landosImg{
-    width: 100em;
+
+.landosImg {
+    width: 100%;
+    height: 200px;
 }
 
 .main-text{
-    width: 100%;
-    font-size: 14px;
+    position: relative;
+    width: 100px;
+    margin: 0;
 }
 
 .landosText{
-    width: 100%;
-    font-size: 15px;
+    width: 100px;
+    margin: 0;
+    font-size: 11px;
+    display: none;
 }
 
 .landosTextOne{
     font-size: 15px;
-    width: 100%;
+    display: none;
+}
+.textBox{
+    font-size: 10px;
+    width: 50px;
+}
+
+.textBox h1{
+    font-size: 10px;
+    width: 50px;
+}
+
+.textBox p{
+    font-size: 10px;
+    width: 50px;
+}
+
+.textBox a{
+    font-size: 10px;
+    width: 50px;
+}
+
+.imgText{
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    color: white;
     position: relative;
-    left: 10000px;
+    top: 140px;
+    line-height: 30px;
+}
+
+.main-row{
+display: none;
+
+}
+
+
+
+.boxMain {
+    width: 100%;
+}
+.imgMain {
+    width: 200px;
+}
+.mainBlack {
+    position: relative;
+    top: -30px;
+    background-color: #000000;
+    color: #FFFFFF;
+    width: 200px;
+    height: 30px;
+}
+
+.adaptiveMain{
+    display: flex;
+    width: 430px;
+    margin: 0 auto;
+    position: relative;
+    top: 300px;
+
+}
+
+.boxMain{
+    margin: 10px;
+}
+
+.section-1{
+    position: relative;
+    top: 500px;
+    background-color: #9b7c7c;
+    width: 100%;
+}
+
+#section-1{
+    position: relative;
+    top: 100px;
+    margin: 0;
+}
+.section-1-row{
+    display: block;
+    width: 100%;
+}
+.section-1-row p{
+    display: block;
+    width: 100%;
+}
+
+.section-1-years-row{
+    display: block;
+    width: 100%;
+}
+
+
+.section-1-ryears-row p{
+    display: block;
+    width: 100%;
+}
+
+
+
+.section-1-row-block-1{
+    width: 100%;
+}
+.section-1-row-block-1 h1{
+    width: 400px;
+    background-color: #000000;
+}
+
+
+
+.section-1-row-block-2{
+    width: 300px;
+    background-color: #000000;
+}
+
+.section-1-row-block-2 img{
+    width: 300px;
+    background-color: #000000;
+}
+
+.section-1-years{
+    width: 100%;
+}
+
+.section-1-years-row{
+    width: 100%;
+}
+
+.section-1-years p{
+    width: 100px;
+}
+
+.section-1-years-row p{
+    width: 100px;
+}
+
+.section-1-years-row h1{
+    width: 100px;
 }
 
 
@@ -1230,41 +1390,3 @@ main{
 
 
 
-@media (max-width:1280px) {
-    main img { 
-        width: 100%;
-    }
-    .section-1 {
-        width: 1280px;
-    }
-    footer {
-        width: 1280px;
-    }
-}
-
-@media (min-width:1920px) {
-    main img {
-        width: 1920px;
-        margin: 0 auto;
-    }
-}
-
-
-
-@media (max-width:1440px) {
-    #section-1 {
-        transform: scale(0.8);
-    }
-
-    .section-2 {
-        transform: scale(0.8);
-    }
-    .section-4 {
-        transform: scale(0.8);
-    }
-
-    .footer-block {
-        transform: scale(0.8);
-    }
-
-}
