@@ -13,6 +13,10 @@
 <body>
     
     <div class="container">
+
+
+
+<!--         
         <header>
 
             <nav>
@@ -37,7 +41,59 @@
                 </div>
             </nav>
                
+           </header> -->
+
+
+           <header>
+            <nav>
+                <div class="navigation">
+                    <span>
+                        <ul>
+        
+                            
+        
+                            <li><a id="link-1" href="/aboutUs/aboutUs.html">о компании</a></li>
+        
+                            <li><a href="/services/services.html">Услуги</a></li>
+                            <li><a id="link-3" href="/Houses/houses.html">Дома</a></li>
+                        </ul>
+                    </span>
+                    <span>
+                        <a href="/index.html"><img src="/asset/img/logo.png" alt="" class="logo"></a>
+                        <div class="menu-btn">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </span>
+                    <span>
+                        <ul>
+                            <li><a id="link-4" href="/reviews/reviews.html">Отзывы</a></li>
+                            <li><a id="link-5" href="/contacts/index.html">Контакты</a></li>
+                            <li class="callbackButton"><a id="link-6" href="" >Позвонить мне</a></li>
+                        </ul>
+                    </span>
+                </div>
+            </nav>
+            <a href="/index.html"><img src="/asset/img/logo.png" alt="" class="logoTwo"></a>
            </header>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
            <section class="section-1">
 
@@ -189,8 +245,31 @@
     </div>
 
 
-       
+    <script>
+        var burgerButtons = document.getElementsByClassName('menu-btn');
+    
+    // Добавляем обработчик события к каждой кнопке бургер-меню
+    for (var i = 0; i < burgerButtons.length; i++) {
+      burgerButtons[i].addEventListener('click', toggleBurgerMenu);
+    }
+    
+    function toggleBurgerMenu() {
+      // Получаем ссылку на элемент бургер-меню
+      var burgerMenu = document.getElementsByClassName('navigation')[0];
+    
+      // Добавляем/удаляем класс "active" у элемента меню
+      burgerMenu.classList.toggle('active');
+    }
+    
+    
+    
+    </script>
 
+
+
+
+
+    <script src="/aboutUs/navigation.js"></script>
     <script src="https://kit.fontawesome.com/1fb243072c.js" crossorigin="anonymous"></script>
 </body>
 </html>
