@@ -13,4 +13,3 @@ function toggleBurgerMenu() {
   burgerMenu.classList.toggle('active');
 }
 
-
