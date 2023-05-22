@@ -13,3 +13,11 @@ function toggleBurgerMenu() {
   burgerMenu.classList.toggle('active');
 }
 
+const burgerButtons = document.getElementsByClassName('menu-btn');
+
+Array.from(burgerButtons).forEach((button) => {button.addEventListener('click', toggleBurgerMenu);
+});
+
+const toggleBurgerMenu = () => {const burgerMenu = document.getElementsByClassName('navigation')[0];
+burgerMenu.classList.toggle('active');
+};
