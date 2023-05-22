@@ -49,11 +49,11 @@
                 <div class="navigation">
                     <span>
                         <ul>
-        
+    
                             
-        
+    
                             <li><a id="link-1" href="/aboutUs/aboutUs.html">о компании</a></li>
-        
+    
                             <li><a href="/services/services.html">Услуги</a></li>
                             <li><a id="link-3" href="/Houses/houses.html">Дома</a></li>
                         </ul>
@@ -76,6 +76,8 @@
                 </div>
             </nav>
             <a href="/index.html"><img src="/asset/img/logo.png" alt="" class="logoTwo"></a>
+    
+            
            </header>
 
 
@@ -155,6 +157,30 @@
         
 
 <footer>
+
+    <div class="adaptiveFooter">
+        <ul class="adaptivList">
+            <a href=""><li class="adaptivListItem">услуги</li></a>
+            <a href=""><li class="adaptivListItem">контакты</li></a>
+            <a href=""><li class="adaptivListItem">отзывы</li></a>
+            <a href=""><li class="adaptivListItem">о компании</li></a>
+            <a href=""><li class="adaptivListItem">дома</li></a>
+            <a href=""><li class="adaptivListItem">журнал</li></a>
+        </ul>
+        
+        <div class="footerAdress">
+            <h1 class="footerAdress">Санкт - Петербургул. Маяковского д.13</h1>
+            <p class="footerNumber">8 800 123 - 23 - 23</p>
+        </div>
+
+        <div id="footerIcons">
+            <a href=""><i class="fa-brands fa-twitter"></i></a>
+            <a href=""><i class="fa-brands fa-vk"></i></a>
+            <a href=""><i class="fa-brands fa-telegram"></i></a>
+        </div>
+    </div>
+
+
     <div class="footer-block">
 
         <a href="/index.html">
@@ -245,25 +271,7 @@
     </div>
 
 
-    <script>
-        var burgerButtons = document.getElementsByClassName('menu-btn');
     
-    // Добавляем обработчик события к каждой кнопке бургер-меню
-    for (var i = 0; i < burgerButtons.length; i++) {
-      burgerButtons[i].addEventListener('click', toggleBurgerMenu);
-    }
-    
-    function toggleBurgerMenu() {
-      // Получаем ссылку на элемент бургер-меню
-      var burgerMenu = document.getElementsByClassName('navigation')[0];
-    
-      // Добавляем/удаляем класс "active" у элемента меню
-      burgerMenu.classList.toggle('active');
-    }
-    
-    
-    
-    </script>
 
 
 
