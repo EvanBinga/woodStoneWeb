@@ -292,15 +292,227 @@ nav ul {
     display: none;
 }
 
-@media (max-width: 880px) {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*footer*/
+
+
+footer {
+
+    margin-top: 118px;
+    background: #2B2A29;
+    width: 100%;
+    height: 311px;
+}
+
+.footer-block {
+    width: 1280px;
+    height: 311px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+
+/**/
+
+
+
+
+
+
+#footer-border-1 {
+    width: 0;
+    height: 106px;
+    border: solid 2px white;
+    position: relative;
+    left: -1085px;
+    margin-top: 10px;
+
+
+
+
+}
+
+#footer-border-2 {
+    width: 0;
+    height: 106px;
+    border: solid 2px white;
+    position: relative;
+    left: -690px;
+    margin-top: 10px;
+
+
+}
+
+#footer-border-3 {
+    width: 0;
+    height: 106px;
+    border: solid 2px white;
+    position: relative;
+    left: -165px;
+    margin-top: 10px;
+
+}
+
+
+
+
+
+
+/**/
+#footer-block-link-1 {
+    display: flex;
+}
+
+#footer-block-link-2 {
+    display: flex;
+    margin-left: 133px;
+    margin-top: 25px;
+}
+
+#footer-block-link-1-content-1 a {
+    display: block;
+    color: white;
+    margin-left: 181px;
+    margin-top: 10px;
+    font-size: 17px;
+}
+
+#footer-block-link-1-content-2 a {
+    display: block;
+    color: white;
+    margin-left: 46px;
+    margin-top: 10px;
+    font-size: 17px;
+}
+
+#footer-block-link-2-content-1 a {
+    display: block;
+    color: white;
+    margin-top: 10px;
+    font-size: 17px;
+}
+
+#footer-block-link-2-content-2 a {
+    display: block;
+    color: white;
+    margin-left: 62px;
+    margin-top: 10px;
+    font-size: 17px;
+}
+
+
+#footer-icons {
+    margin-left: 88px;
+}
+
+footer i {
+    font-size: 30px;
+    color: white;
+    margin-left: 10px;
+}
+
+footer i:hover {
+    color: rgb(175, 175, 175);
+    transition: 0.2s;
+}
+
+.footer-adress {
+    width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    position: relative;
+    top: -20px;
+    color: white;
+
+
+}
+
+.footer-adress h1,
+p {
+
+    font-size: 17px;
+    font-weight: 400;
+
+
+}
+
+.footer-adress h1 {
+    position: relative;
+    top: -20px;
+    margin-left: 219px;
+}
+
+.footer-adress p {
+    position: relative;
+    top: -20px;
+    margin-left: 175px;
+}
+
+
+
+
+
+/*footer*/
+
+
+
+/**/
+@media (max-width: 1280px) {
+    .section-4-blocks {
+        transform: scale(0.9);
+    }
+    .section-4-row {
+        margin-top: 20px;
+    }
+    
+}
+
+/**/
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1000px) {
 
       
 
     .callbackButton{
         display: none;
     }
-    
-    
         .logo{
        display: none;
         }
@@ -313,7 +525,6 @@ nav ul {
             padding-left: 30px;
             top: 1px;
         }
-    
         .navigation {
             margin: 0 auto;
             display: block;
@@ -325,16 +536,10 @@ nav ul {
             z-index: 99999999;
     
         }
-    
         .navigation.active{
             top: 60px;
             transition: 0.4s;
         }
-        
-        
-        
-     
-        
         nav {
             position: fixed;
             display: block;
@@ -360,9 +565,7 @@ nav ul {
         nav span:last-child {
             margin: 0;
         }
-        nav span:last-child a{
-            /*margin-left: 85px;*/
-        }
+        
         /**/
         nav ul {
             display: block;
@@ -422,5 +625,187 @@ nav ul {
         display: block;
         top: 0;
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /*new*/
+    
+
+
+
+    .tittle {
+        width: 100%;
+        padding-top: 40px;
+    }
+    .slider-navigation {
+        width: 100%;
+        justify-content: center;
+    }
+    .slider-content {
+        width: 100%;
+    }
+    .slider-row {
+        width: 100%;
+        min-width: 100%;
+    }
+    .slider-content {
+        min-width: 100%;
+        width: 100%;
+    }
+    .tittle-block {
+        width: 100%;
+    }
+    .slider-navigation p {
+        margin-left: 0;
+    }
+    .buttons {
+        display: none;
+    }
+    .slider-content h1 {
+        margin-left: 0;
+        text-align: center;
+        padding-top: 150px;
+    }
+    .slider-content p {
+        width: 100%;
+        font-size: 25px;
+        margin-left: 0;
+        text-align: center;
+    }
+    .slider-content a {
+        margin: 0 auto;
+        width: 100%;
+        max-width: 300px;
+        margin-top: 50px;
+       
+        
+    }
+
+
+
+    /*sectionRow*/
+
+    .section-4-row {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .section-4-blocks-one div:nth-child(1) {
+        width: 100%;
+        max-width: 450px;
+    }
+    .section-4-blocks {
+        width: 100%;
+        margin-top: -200px;
+    }
+    .section-4-blocks-one div:nth-child(2) {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        height: 100%;
+        max-width: 450px;
+        }
+    .section-4-blocks-one a {
+        width: 100%;
+    }
+    .section-4-blocks-one p {
+        width: 100%;
+        text-align: center;
+        font-size: 19px;
+    }
+    .section-4-blocks-one img {
+        width: 100%;
+        max-width: 450px;
+    }
+    .section-4-blocks-one {
+        padding-top: 50px;
+    }
 }
 /**/
+
+
+
+
+
+
+/*adaptiveFooter*/
+
+@media (min-width:1001px) {
+    .footer-block {
+        /*display: none;*/
+    }
+    .adaptiveFooter {
+        display: none;
+    }
+}
+
+
+
+@media (max-width: 1000px) {
+    footer { 
+        width: 100%;
+        height: 100%;
+    }
+    footer a {
+        display: block;
+        color: white;
+        margin-top: 10px;
+        font-size: 20px;
+    }
+    .adaptivList a:nth-child(1) {
+        padding-top: 15px;
+    }
+    #footerIcons {
+        display: flex;
+        justify-content: center;
+    }
+    .footerAdress {
+        font-size: 20px;
+        margin-top: 10px;
+    }
+    .footerNumber {
+        font-size: 20px;
+        margin-top: 10px;
+    }
+
+    .footer-block {
+        display: none;
+    }
+
+    .adaptiveFooter {
+        /*
+        display: block;*/
+        text-align: center;
+        color: white;
+    }
+    .footer-adress {
+        display: none;
+    }
+}
+
+
+
+
+/*adaptiveFooter*/
+
+
+
+
