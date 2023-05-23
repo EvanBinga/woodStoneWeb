@@ -19,19 +19,90 @@ a {
 
 
 .popUpPlanning {
-    
+    position: fixed;
+    top: -3069px;
+    z-index: 999999;
+    background-color: #1E1E1E;
+    height: 100%;
+    width: 100%;
+    transition: 0.4s;
+
 }
+
+
+.popUpPlanning.active {
+    top: 69px;
+}
+
+
 .planingContent {
 }
 .imgBox {
 }
 .pliningImg {
+    width: 97%;
+    position: relative;
+    left: 20px ;
+    height: 650px;
+    border-radius: 15px;
+    filter: brightness(0.3); /* Значение от 0 до 1, где 0 - полное затемнение, 1 - без изменений */
+
+
+}
+
+
+
+.titlePluning{
+    position: relative;
+    top: -600px;
+    color: white;
+    font-size: 35px;
+}
+
+.textBoxPluning{
+    position: relative;
+    width: 1150px;
+    margin: 0 auto;
+}
+
+.popupClousePluning{
+    color: white;
+    position: relative;
+    top: 40px;
+    left: 1360px;
+    z-index: 9999999;
+    font-size: 21px;
+}
+
+.textPlaning{
+    position: relative;
+    top: -550px;
+    color: white;
+    font-size: 20px;
+    width: 1100px;
+    line-height: 35px;
+
 }
 .inputBoxPluning {
+    position: relative;
+    top: -450px;
 }
 .placeholderFormPluning {
+    width: 400px;
+    height: 30px;
+    margin-left: 40px;
+    position: relative;
+    left: -45px;
 }
 .sendFormpopupPluning {
+    position: relative;
+    top: -360px;
+    width: 300px;
+    height: 35px;
+    background-color: #1E1E1E;
+    color: white;
+    border: 1px solid white;
+
 }
 
 
@@ -46,10 +117,9 @@ a {
     height: 100%;
     width: 100%;
     left: 0;
-    top: 0;
+    top: 70px;
     z-index: 9999;
       display: none;
-
   }
   
   
@@ -124,11 +194,19 @@ a {
     margin: 0 auto;
     display: flex;
     margin-top: 8px;
-    
+    position: fixed;
+    background-color: white;
+    width: 1440px;
+    left: 0;
+    z-index: 999999;
+    top: -10px;
 }
+
+
 
 .container {
     margin: 0 auto;
+    position: relative;
 }
 
 nav {
@@ -136,10 +214,13 @@ nav {
     width: 1280px;
     margin: 0 auto;
     height: 71px;
+    position: relative;
 }
 nav span {
     display: flex;
     align-items: center;
+    position: relative;
+    left: 190px;
 }
 
 /**/

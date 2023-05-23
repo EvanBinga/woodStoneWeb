@@ -21,5 +21,21 @@ function toggleBurgerMenu() {
     });
   })();
   
+  const pluningButton = document.querySelector('.pluningButton');
+  const popUpPlanning = document.querySelector('.popUpPlanning');
+  const popupClousePluning = document.querySelector('.popupClousePluning');
   
-
+  pluningButton.addEventListener('click', () => {
+    popUpPlanning.classList.add('active');
+  });
+  
+  popupClousePluning.addEventListener('click', () => {
+    popUpPlanning.classList.remove('active');
+  });
+  
+  document.addEventListener('keydown', (event) => {
+    if (event.key === 'Escape') {
+      popUpPlanning.classList.remove('active');
+    }
+  });
+  
