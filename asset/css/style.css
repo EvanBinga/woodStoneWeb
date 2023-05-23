@@ -15,7 +15,108 @@ a {
 }
 /*bassed*/
 
+/* popup */
 
+
+.popUpPlanning {
+    
+}
+.planingContent {
+}
+.imgBox {
+}
+.pliningImg {
+}
+.inputBoxPluning {
+}
+.placeholderFormPluning {
+}
+.sendFormpopupPluning {
+}
+
+
+
+
+  /*  */
+
+
+ .callbackPopup {
+    position: fixed;
+    background-color: #000000e3;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 9999;
+      display: none;
+
+  }
+  
+  
+  
+  /* Дополнительные стили */
+  .contentDark {
+    background-color: #2B2A29;
+    width: 1000px;
+    height: 100%;
+    margin: 0 auto;
+  }
+  .popupContent {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .clousePopup {
+    color: white;
+    font-size: 26px;
+    position: relative;
+    left: 950px;
+    top: 10px;
+  }
+  .popupTitle {
+    color: white;
+    font-size: 25px;
+    position: relative;
+    left: 40px;
+    top: 10px;
+  }
+  .popUpImg {
+    width: 100%;
+    margin-top: 20px;
+    position: relative;
+    top: 10px;
+    height: 400px;
+  }
+  .popupText {
+    color: white;
+    margin-top: 20px;
+    font-size: 17px;
+    width: 950px;
+    position: relative;
+    left: 40px;
+  }
+  .inputBox {
+    margin-top: 30px;
+  }
+  .placeholderForm {
+    width: 420px;
+    height: 40px;
+    margin-left: 40px;
+  }
+  .sendFormpopup {
+    border: 1px solid white;
+    background-color: #2B2A29;
+    color: white;
+    width: 340px;
+    height: 50px;
+    font-size: 20px;
+    position: relative;
+    left: 30px;
+    top: 30px;
+  }
+  
+
+
+/*  */
 
 
 /*navigation*/
@@ -86,6 +187,10 @@ nav ul {
     align-items: center;
     position: relative;
     left: 53px;
+}
+
+.callbackButton{
+
 }
 /*navigation*/
 
