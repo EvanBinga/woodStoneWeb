@@ -39,3 +39,18 @@ function toggleBurgerMenu() {
     }
   });
   
+
+  const tabs = document.querySelectorAll('.listItemTest');
+const tabContents = document.querySelectorAll('.boxOneTest');
+
+tabs[0].classList.add('active');
+tabContents[0].classList.add('active');
+
+tabs.forEach((tab, index) => { tab.addEventListener('click', () => {
+    tabs.forEach((tab) => tab.classList.remove('active'));
+    tabContents.forEach((content) => content.classList.remove('active'));
+
+    tab.classList.add('active');
+    tabContents[index].classList.add('active');
+  });
+});

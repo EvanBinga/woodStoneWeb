@@ -607,92 +607,95 @@ main p {
     margin: 0 auto;
 }
 
-.section-2 h1 {
-    margin-left: 55px;
-    font-weight: 700;
+
+.sliderTest {
+    margin-top: 20px;
+}
+.titleTest {
     font-size: 40px;
-    line-height: 70px;
-    color: #1E1E1E;
-}
-.section-2-buttons {
-    display: flex;
-
-    justify-content: center;
-}
-.section-2-buttons div {
-    width: 164px;
-    height: 51px;
-    border: 1px solid #322C27;
-    border-radius: 10px;
-    margin-right: 1px;
-    cursor: pointer;
-    transition: 0.2s;
-    font-weight: 700;
-    font-size: 17px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-}
-
-.section-2-buttons div:hover {
-    background: #322C27;
-    color: white;
-}
-
-.section-2-slider {
-    margin: 0 auto;
-    width: 1163px;
-    height: 557px;
-    background: #322C27;
-    border-radius: 10px;
-    margin-top: 9px;
-
-    
-
-
     
 }
-.section-2-slider p { 
-    color: #FFFFFF;
-    font-size: 40px;
-    line-height: 70px;
-    font-weight: 700;
-    margin-left: 49px;
-    padding-top: 28px;
-}
-.section-2-slider-blocks {
+.listTest {
     display: flex;
-    justify-content: space-evenly;
-}
-.section-2-slider img {
-    width: 355px;
-    height: 302px;
-    padding-top: 33px;
-}
-#section-2-block {
-    width: 355px;
-    height: 68px;
-    background: #D9D9D9;
+
     position: relative;
-    top: -4px;
-    border-bottom-right-radius: 20px;
-    border-bottom-left-radius: 20px;
-
+    top: 28px;
+}
+.listItemTest {
+    list-style-type: none;
+    border: 1px solid #222222;
+    padding: 10px 53px;
+    border-radius: 5px;
+}
+.testContent {
+}
+.flexBoxTest{
     display: flex;
-    align-items: center;
+    justify-content: center;
 }
-#section-2-block h2 { 
-    color: #322C27;
-    font-size: 22px;
-    font-weight: 400;
-    margin-left: 33px;
+.boxOneTest {
+    background-color: rgb(24, 12, 0);
+    width: 1255px;
+    left: -10px;
+    height: 490px;
+    position: relative;
+    top: 29px;
+    margin: 0 auto;
+    border-radius: 15px;
 }
-#checkbox {
-    margin-left: 168px;
-    width: 31px;
-    height: 27px;
+.testOnee {
+    margin-left: 10px;
+    background-color: gray;
+        border-radius: 15px;
+
 }
+
+.testOne{
+    background-color: gray;
+    padding-bottom: 30px;
+        border-radius: 15px;
+
+
+}
+.titleTestContent {
+    padding-top: 30px;
+    color: white;
+    border-radius: 15px;
+    padding-left: 60px;
+    font-size: 30px;
+
+}
+.itemOne {
+}
+.imgOne {
+}
+.testTextOne {
+   color: black;
+    margin-left: 30px;
+    margin-top: 20px;
+
+}
+
+#textFlex{
+    display: flex;
+}
+
+#checkbox{
+    margin-left: 230px;
+}
+
+.listItemTest.active {
+  background-color: #ccc;
+}
+
+.boxOneTest.active {
+  display: block;
+}
+
+.boxOneTest {
+  display: none;
+}
+
 
 .section-2-video {
     width: 1192px;
