@@ -164,7 +164,7 @@ main {
 }
 
 
-#gaz-btn {
+#gaz-btn-1{
     width: 250px;
     height: 40px;
     border-right: 1px solid;
@@ -174,12 +174,55 @@ main {
     justify-content: center;
     align-items: center;
 }
-#gaz-btn:hover {
+
+#gaz-btn-2 {
+    width: 250px;
+    height: 40px;
+    border-right: 1px solid;
+    cursor: pointer;
+    transition: 0.1s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+#gaz-btn-area {
+    width: 250px;
+    height: 40px;
+    border-right: 1px solid;
+    cursor: pointer;
+    transition: 0.1s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#gaz-btn-1:hover {
     background: #322C27;
     color: white;
 }
 
+#gaz-btn-2:hover {
+    background: #322C27;
+    color: white;
+}
 
+#gaz-btn-area:hover {
+    background: #322C27;
+    color: white;
+}
+
+.flexBox{
+    display: flex;
+}
 
 /**/
 .content {
