@@ -669,8 +669,9 @@ p {
         display: block;
         top: 0;
     }
-/*burger*/
+
 }
+/*burger*/
 
 @media (max-width:800px) {
     footer {
