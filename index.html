@@ -13,23 +13,26 @@
 
 
 <body>
-    <div class="callbackPopup">
-        <div class="contentDark">
-            <div class="popupContent">
-                <p class="clousePopup">x</p>
-                <h2 class="popupTitle">
-                    Получите консультацию по строительству загородных домов!
-                </h2>
-                <img src="/asset/img/popupHouseOne.png" alt="popupImg" class="popUpImg">
-                <p class="popupText">Мы готовы помочь вам воплотить мечту о вашем идеальном загородном доме. Наша команда опытных специалистов сделает все возможное, чтобы ваш дом стал олицетворением комфорта, красоты и качества. Не упустите шанс создать свое уютное гнездышко в окружении природы!</p>
-                <div class="inputBox">
-                    <input type="text" class="placeholderForm">
-                    <input type="number"class="placeholderForm">
-                </div>
-                <button class="sendFormpopup">Отправить</button>
-            </div>
+
+    <div id="popupContainer" class="popup-container">
+        <div class="popup-content">
+            <button class="closePopup" onclick="closePopup()">X</button>
+          <h2 class="popupTitle">Получите консультацию по строительству загородных домов!</h2>
+          <img src="/asset/img/popupHouseOne.png" alt="popupImg" class="popUpImg">
+
+          <p class="popUpText">Мы готовы помочь вам воплотить мечту о вашем идеальном загородном доме. Наша команда опытных специалистов сделает все возможное, чтобы ваш дом стал олицетворением комфорта, красоты и качества. Не упустите шанс создать свое уютное гнездышко в окружении природы!</p>
+          <div class="inputBox">
+            <input type="text" class="placeholderForm">
+            <input type="number"class="placeholderForm">
         </div>
-    </div>
+        <button class="sendFormpopup">Отправить</button>
+
+        
+        </div>
+      </div>
+      
+      <div id="overlay" class="overlay"></div>
+      
 
 
     <div class="popUpPlanning">
@@ -82,7 +85,7 @@
                     <ul>
                         <li><a id="link-4" href="/reviews/reviews.html">Отзывы</a></li>
                         <li><a id="link-5" href="/contacts/index.html">Контакты</a></li>
-                        <li class="callbackButton" id="link-6">Позвонить мне</li>
+                        <li class="callbackButton" id="link-6" onclick="openPopup()">Позвонить мне</li>
                     </ul>
                 </span>
             </div>
@@ -789,6 +792,7 @@
 </footer>
    </div>
 </div>
+<script src="/services/services-gaz_beton/gaz-beton-page/main.js"></script>
 
 <script src="/asset/js/popup.js"></script>
 

@@ -7,19 +7,19 @@ function toggleBurgerMenu() {
   burgerMenu.classList.toggle('active');
 }
 
-(function() {
-    const callbackButton = document.querySelector('.callbackButton');
-    const callbackPopup = document.querySelector('.callbackPopup');
-    const closePopupButton = document.querySelector('.clousePopup');
+// (function() {
+//     const callbackButton = document.querySelector('.callbackButton');
+//     const callbackPopup = document.querySelector('.callbackPopup');
+//     const closePopupButton = document.querySelector('.clousePopup');
   
-    callbackButton.addEventListener('click', (event) => {event.preventDefault();
-      callbackPopup.style.display = 'block';
-    });
-    closePopupButton.addEventListener('click', () => {callbackPopup.style.display = 'none';
-    });
-    callbackPopup.addEventListener('click', (event) => {if (event.target === callbackPopup) callbackPopup.style.display = 'none';
-    });
-  })();
+//     callbackButton.addEventListener('click', (event) => {event.preventDefault();
+//       callbackPopup.style.display = 'block';
+//     });
+//     closePopupButton.addEventListener('click', () => {callbackPopup.style.display = 'none';
+//     });
+//     callbackPopup.addEventListener('click', (event) => {if (event.target === callbackPopup) callbackPopup.style.display = 'none';
+//     });
+//   })();
   
   const pluningButton = document.querySelector('.pluningButton');
   const popUpPlanning = document.querySelector('.popUpPlanning');

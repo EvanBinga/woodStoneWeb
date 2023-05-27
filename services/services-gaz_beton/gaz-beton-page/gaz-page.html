@@ -58,9 +58,23 @@
             <div class="main-content">
                 <h1>Газобетон</h1>
                 <h2>Дом Wood - 23</h2>
-                <a href="">рассчитать стоимость</a>
+                <a href="#" class="buttonPopUp"  onclick="openPopup()">рассчитать стоимость</a>
             </div>
         </main>
+
+        <div id="popupContainer" class="popup-container">
+          <div class="popup-content">
+            <h2>Заголовок попапа</h2>
+            <p>Текст попапа</p>
+            <button onclick="closePopup()">Закрыть попап</button>
+          </div>
+        </div>
+        
+        <div id="overlay" class="overlay"></div>
+        
+
+
+
     
         <section class="section-1">
             <div class="section-1-block">
@@ -385,6 +399,12 @@
 
 
     </div>
+
+
+
+
+
+
 <<<<<<< HEAD
     <script src="/services/services-gaz_beton/gaz-beton-page/main.js"></script>
 

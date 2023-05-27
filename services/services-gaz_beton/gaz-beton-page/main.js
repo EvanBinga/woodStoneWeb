@@ -18,3 +18,47 @@ function changeTab(tabIndex) {
         }
     }
 }   
+
+
+
+const openPopup = () => {
+    const popup = document.getElementById('popupContainer');
+    const overlay = document.getElementById('overlay');
+    popup.style.display = 'block';
+    overlay.style.display = 'block';
+    setTimeout(() => {
+      popup.classList.add('show');
+      overlay.classList.add('show');
+      document.addEventListener('click', closePopupOutside);
+      popup.addEventListener('click', stopPropagation);
+      overlay.addEventListener('click', closePopup);
+    }, 10);
+  };
+  
+  const closePopup = () => {
+    const popup = document.getElementById('popupContainer');
+    const overlay = document.getElementById('overlay');
+    popup.classList.remove('show');
+    overlay.classList.remove('show');
+    setTimeout(() => {
+      popup.style.display = 'none';
+      overlay.style.display = 'none';
+      document.removeEventListener('click', closePopupOutside);
+      popup.removeEventListener('click', stopPropagation);
+      overlay.removeEventListener('click', closePopup);
+    }, 300);
+  };
+  
+  const closePopupOutside = (event) => {
+    const popup = document.getElementById('popupContainer');
+    const target = event.target;
+  
+    if (!popup.contains(target) && !target.classList.contains('overlay')) {
+      closePopup();
+    }
+  };
+  
+  const stopPropagation = (event) => {
+    event.stopPropagation();
+  };
+  
