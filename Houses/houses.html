@@ -30,17 +30,29 @@
                         </ul>
                     </span>
                     <span>
-                        <a href="/index.html"><img src="/asset/img/logo.png" alt=""></a>
+                        <a href="/index.html"><img src="/asset/img/logo.png" alt="" class="logo"></a>
+                        <div class="menu-btn">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
                     </span>
                     <span>
                         <ul>
-                            <li><a id="link-4" href="">Отзывы</a></li>
+                            <li><a id="link-4" href="/reviews/reviews.html">Отзывы</a></li>
                             <li><a id="link-5" href="/contacts/index.html">Контакты</a></li>
+<<<<<<< HEAD
                             <li><a id="link-6" href="#" onclick="openPopup()">Позвонить мне</a></li>
+=======
+                            <li class="callbackButton"><a id="link-6" href="" >Позвонить мне</a></li>
+>>>>>>> 6d4298915fc01d7030fa84a6b0ed2846a24cd028
                         </ul>
                     </span>
                 </div>
             </nav>
+            <a href="/index.html"><img src="/asset/img/logo.png" alt="" class="logoTwo"></a>
+    
+            
            </header>
     
            <div id="popupContainer" class="popup-container">
@@ -165,40 +177,42 @@
     
             <h1>РАССЧИТАЙТЕ СТОИМОСТЬ СТРОИТЕЛЬСТВА</h1>
         
-            <div class="section-2-buttons">
-                <div>1. Этажи</div>
-                <div>2. Стены</div>
-                <div>3. Кровля</div>
-                <div>4. Фасад</div>
-                <div>5. Отделка</div>
-                <div>6. Окна и двери</div>
-                <div>7. Результаты</div>
-            </div>
-        
+            <div class="section2Flex">
+                <div class="section-2-buttons">
+                    <div>1. Этажи</div>
+                    <div>2. Стены</div>
+                    <div>3. Кровля</div>
+                    <div>4. Фасад</div>
+                    <div>5. Отделка</div>
+                    <div>6. Окна и двери</div>
+                    <div>7. Результаты</div>
+                </div>
             
-            <div class="section-2-slider">
-                <p>1. Выберите этажность</p>
-        
-                <div class="section-2-slider-blocks">
-                    <div>
-                        <img src="/asset/img/section-2-house1.svg" alt="">
-                        <div id="section-2-block">
-                            <h2>1 этаж</h2>
-                            <input id="checkbox" type="checkbox">
+                
+                <div class="section-2-slider">
+                    <p>1. Выберите этажность</p>
+            
+                    <div class="section-2-slider-blocks">
+                        <div class="section2BlockFlex">
+                            <img src="/asset/img/section-2-house1.svg" alt="">
+                            <div id="section-2-block">
+                                <h2>1 этаж</h2>
+                                <input id="checkbox" type="checkbox">
+                            </div>
                         </div>
-                    </div>
-                    <div>
-                        <img src="/asset/img/section-2-house2.svg" alt="">
-                        <div id="section-2-block">
-                            <h2>1 этажa</h2>
-                            <input id="checkbox" type="checkbox">
+                        <div class="section2BlockFlex">
+                            <img src="/asset/img/section-2-house2.svg" alt="">
+                            <div id="section-2-block">
+                                <h2>1 этажa</h2>
+                                <input id="checkbox" type="checkbox">
+                            </div>
                         </div>
-                    </div>
-                    <div>
-                        <img src="/asset/img/section-2-house3.svg" alt="">
-                        <div id="section-2-block">
-                            <h2>3 этажa</h2>
-                            <input id="checkbox" type="checkbox">
+                        <div class="section2BlockFlex">
+                            <img src="/asset/img/section-2-house3.svg" alt="">
+                            <div id="section-2-block">
+                                <h2>3 этажa</h2>
+                                <input id="checkbox" type="checkbox">
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -244,93 +258,121 @@
 
 
         
-<footer>
-    <div class="footer-block">
+        <footer>
 
-        <a href="/index.html">
-            <div>
-                <img src="/asset/img/WoodStone.png" alt="">
-                
-            </div>
-        </a>
-
-
-        <div id="footer-block-link-1">
-
-            <div id="footer-block-link-1-content-1">
-                <ul>
-                    <li><a href="">услуги</a></li>
-                    <li><a href="">контакты</a></li>
-                    <li><a href="">отзывы</a></li>
-                </ul>
-            </div>
-
-
-            <div id="footer-block-link-1-content-2">
-                <ul>
-                    <li><a href="">о компании</a></li>
-                    <li><a href="">дома</a></li>
-                </ul>
-            </div>
-            
-            
-
-        </div>
-        
-        <div id="footer-block-link-2">
-            
-            <div id="footer-block-link-2-content-1">
-                <ul>
-                    <li><a href="">Проекты в работе</a></li>
-                    <li><a href="">Проекты домов</a></li>
-                    <li><a href="">Строящиеся дома</a></li>
-                </ul>
-            </div>
-
-            <div id="footer-block-link-2-content-2">
-                <ul>
-                    <li><a href="">Дома в родаже</a></li>
-                    <li><a href="">Участки в продаже</a></li>
-                    <li><a href="">Индивидуальное <br>
-                        проектирование</a></li>
+            <div class="adaptiveFooter">
+                <ul class="adaptivList">
+                    <a href=""><li class="adaptivListItem">услуги</li></a>
+                    <a href=""><li class="adaptivListItem">контакты</li></a>
+                    <a href=""><li class="adaptivListItem">отзывы</li></a>
+                    <a href=""><li class="adaptivListItem">о компании</li></a>
+                    <a href=""><li class="adaptivListItem">дома</li></a>
+                    <a href=""><li class="adaptivListItem">журнал</li></a>
                 </ul>
                 
+                <div class="footerAdress">
+                    <h1 class="footerAdress">Санкт - Петербургул. Маяковского д.13</h1>
+                    <p class="footerNumber">8 800 123 - 23 - 23</p>
+                </div>
+        
+                <div id="footerIcons">
+                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                    <a href=""><i class="fa-brands fa-vk"></i></a>
+                    <a href=""><i class="fa-brands fa-telegram"></i></a>
+                </div>
             </div>
+        
+        
+            <div class="footer-block">
+        
+                <a href="/index.html">
+                    <div>
+                        <img src="/asset/img/WoodStone.png" alt="">
+                        
+                    </div>
+                </a>
+        
+        
+                <div id="footer-block-link-1">
+        
+                    <div id="footer-block-link-1-content-1">
+                        <ul>
+                            <li><a href="">услуги</a></li>
+                            <li><a href="">контакты</a></li>
+                            <li><a href="">отзывы</a></li>
+                        </ul>
+                    </div>
+        
+        
+                    <div id="footer-block-link-1-content-2">
+                        <ul>
+                            <li><a href="">о компании</a></li>
+                            <li><a href="">дома</a></li>
+                        </ul>
+                    </div>
+                    
+                    
+        
+                </div>
+                
+                <div id="footer-block-link-2">
+                    
+                    <div id="footer-block-link-2-content-1">
+                        <ul>
+                            <li><a href="">Проекты в работе</a></li>
+                            <li><a href="">Проекты домов</a></li>
+                            <li><a href="">Строящиеся дома</a></li>
+                        </ul>
+                    </div>
+        
+                    <div id="footer-block-link-2-content-2">
+                        <ul>
+                            <li><a href="">Дома в родаже</a></li>
+                            <li><a href="">Участки в продаже</a></li>
+                            <li><a href="">Индивидуальное <br>
+                                проектирование</a></li>
+                        </ul>
+                        
+                    </div>
+                    
+                </div>
+        
+        
+        
+                <div id="footer-icons">
+                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                    <a href=""><i class="fa-brands fa-vk"></i></a>
+                    <a href=""><i class="fa-brands fa-telegram"></i></a>
+                </div>
+        
+        
+        
+        
+                <div id="footer-border-1"></div>
+                <div id="footer-border-2"></div>
+                <div id="footer-border-3"></div>
+                
+        
+        
+                
+            </div>
+            <div class="footer-adress">
+                <h1>Санкт - Петербургул. Маяковского д.13</h1>
+                <p>8 800 123 - 23 - 23</p>
+            </div>
+        
             
-        </div>
-
-
-
-        <div id="footer-icons">
-            <a href=""><i class="fa-brands fa-twitter"></i></a>
-            <a href=""><i class="fa-brands fa-vk"></i></a>
-            <a href=""><i class="fa-brands fa-telegram"></i></a>
-        </div>
-
-
-
-
-        <div id="footer-border-1"></div>
-        <div id="footer-border-2"></div>
-        <div id="footer-border-3"></div>
-        
-
-
-        
-    </div>
-    <div class="footer-adress">
-        <h1>Санкт - Петербургул. Маяковского д.13</h1>
-        <p>8 800 123 - 23 - 23</p>
-    </div>
-
-    
-</footer>
+        </footer>
 
 
 
     </div>
+<<<<<<< HEAD
     <script src="/services/services-gaz_beton/gaz-beton-page/main.js"></script>
 
+=======
+    <script src="/aboutUs/navigation.js"></script>
+>>>>>>> 6d4298915fc01d7030fa84a6b0ed2846a24cd028
     <script src="https://kit.fontawesome.com/1fb243072c.js" crossorigin="anonymous"></script>
 </body>
 </html>
