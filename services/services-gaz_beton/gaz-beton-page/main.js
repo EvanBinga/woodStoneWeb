@@ -61,4 +61,20 @@ const openPopup = () => {
   const stopPropagation = (event) => {
     event.stopPropagation();
   };
+
+
   
+  
+
+
+
+  var boxIcon = document.querySelector('.boxIcon');
+var noneBox = document.querySelector('.noneBox');
+
+boxIcon.addEventListener('mouseover', function() {
+  noneBox.style.opacity = '1';
+});
+
+boxIcon.addEventListener('mouseout', function() {
+  noneBox.style.opacity = '0';
+});

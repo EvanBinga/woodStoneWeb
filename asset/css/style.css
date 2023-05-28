@@ -69,9 +69,10 @@ a {
     color: white;
     position: relative;
     top: 40px;
-    left: 1360px;
+    left: 1210px;
     z-index: 9999999;
     font-size: 21px;
+
 }
 
 .textPlaning{
@@ -119,11 +120,13 @@ a {
     transition: opacity 0.3s ease-in-out;
     height: 700px;
     width: 1000px;
+    display: none;
   }
   
   .popup-container.show {
     opacity: 1;
     pointer-events: auto;
+    display: none;
   }
   
   .overlay {
@@ -136,11 +139,13 @@ a {
     opacity: 0;
     pointer-events: none;
     transition: opacity 0.3s ease-in-out;
+    display: none;
   }
   
   .overlay.show {
     opacity: 1;
     pointer-events: auto;
+    display: none;
   }
   
 
@@ -172,12 +177,6 @@ a {
   
   
   /* Дополнительные стили */
-  .contentDark {
-    background-color: #2B2A29;
-    width: 1000px;
-    height: 100%;
-    margin: 0 auto;
-  }
   .popupContent {
     width: 100%;
     margin: 0 auto;
@@ -647,6 +646,13 @@ main p {
 }
 
 
+/*  */
+
+
+
+  
+
+
 .sliderTest {
     margin-top: 20px;
 }
@@ -734,6 +740,9 @@ main p {
 .boxOneTest {
   display: none;
 }
+
+/* 
+ */
 
 
 .section-2-video {

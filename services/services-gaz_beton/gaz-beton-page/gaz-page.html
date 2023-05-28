@@ -39,7 +39,7 @@
                         <ul>
                             <li><a id="link-4" href="/reviews/reviews.html">Отзывы</a></li>
                             <li><a id="link-5" href="/contacts/index.html">Контакты</a></li>
-                            <li class="callbackButton"><a id="link-6" href="" >Позвонить мне</a></li>
+                            <li class="callbackButton"><a id="link-6" href="#" onclick="openPopup()">Позвонить мне</a></li>
                         </ul>
                     </span>
                 </div>
@@ -58,22 +58,30 @@
             <div class="main-content">
                 <h1>Газобетон</h1>
                 <h2>Дом Wood - 23</h2>
-                <a href="#" class="buttonPopUp"  onclick="openPopup()">рассчитать стоимость</a>
+                <a href="#" class="buttonPopUp" onclick="openPopup()" >рассчитать стоимость</a>
             </div>
         </main>
 
+ 
         <div id="popupContainer" class="popup-container">
-          <div class="popup-content">
-            <h2>Заголовок попапа</h2>
-            <p>Текст попапа</p>
-            <button onclick="closePopup()">Закрыть попап</button>
+            <div class="popup-content">
+                <button class="closePopup" onclick="closePopup()">X</button>
+              <h2 class="popupTitle">Получите консультацию по строительству загородных домов!</h2>
+              <img src="/asset/img/popupHouseOne.png" alt="popupImg" class="popUpImg">
+    
+              <p class="popUpText">Мы готовы помочь вам воплотить мечту о вашем идеальном загородном доме. Наша команда опытных специалистов сделает все возможное, чтобы ваш дом стал олицетворением комфорта, красоты и качества. Не упустите шанс создать свое уютное гнездышко в окружении природы!</p>
+              <div class="inputBox">
+                <input type="text" class="placeholderForm">
+                <input type="number"class="placeholderForm">
+            </div>
+            <button class="sendFormpopup">Отправить</button>
+    
+            
+            </div>
           </div>
-        </div>
-        
-        <div id="overlay" class="overlay"></div>
-        
-
-
+          
+          <div id="overlay" class="overlay"></div>
+          
 
     
         <section class="section-1">
@@ -126,6 +134,7 @@
             <div class="section2-block" id="el-1">
                 <img src="/services/img/s-gaza2.svg" alt="">
             </div>
+
     
             <div class="section2-block" id="el-2">
                 <img src="/services/img/s-gaza3.svg" alt="">
@@ -147,20 +156,51 @@
                 <img src="/services/img/s-gaza7.svg" alt="">
             </div>
 
-            <div class="section2-block" id="el-7">
-                <img src="/services/img/s-gaza8.svg" alt="">
-            </div>
 
 
 
-            <div class="section2-block-text" id="el-8">
-                <img src="/services/img/s-gaza9.png" alt="">
+            <div class="boxIcon">
+                <img src="/services/img/s-gaza8.svg" alt="" class="iconOne">
+                <div class="noneBox">
+                  <img src="/services/img/s-gaza9.png" alt="" class="hoverImg">
+                  <ul class="boxIconList">
+                    <li>Фальцевое покрытие</li>
+                    <li>Утепление 250 мм с гидро- и пароизоляцией</li>
+                    <li>Система снегозадержания и водосточная система</li>
+                  </ul>
+                </div>
+              </div>
+              
+              
+
+              
+            <!-- <div class="boxIcon">
+                <img src="/services/img/s-gaza8.svg" alt="" class="iconOne">
+                <div class="noneBox">
+                <img src="/services/img/s-gaza9.png" alt="" class="hoverImg">
                 <ul>
                     <li>Фальцевое покрытие</li>
                     <li>Утепление 250 мм с гидро- и пароизоляцией</li>
                     <li>Система снегозадержания и водосточная система</li>
                 </ul>
             </div>
+            </div> -->
+<!-- 
+                <img src="/services/img/s-gaza8.svg" alt="" class="hoverBoard">
+
+                
+
+
+
+
+            <div class="section2-block-text">
+                <img src="/services/img/s-gaza9.png" alt="">
+                <ul>
+                    <li>Фальцевое покрытие</li>
+                    <li>Утепление 250 мм с гидро- и пароизоляцией</li>
+                    <li>Система снегозадержания и водосточная система</li>
+                </ul>
+            </div> -->
 
             <div id="stick-1"></div>
             <div id="stick-2"></div>

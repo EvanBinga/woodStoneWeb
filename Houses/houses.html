@@ -36,14 +36,32 @@
                         <ul>
                             <li><a id="link-4" href="">Отзывы</a></li>
                             <li><a id="link-5" href="/contacts/index.html">Контакты</a></li>
-                            <li><a id="link-6" href="">Позвонить мне</a></li>
+                            <li><a id="link-6" href="#" onclick="openPopup()">Позвонить мне</a></li>
                         </ul>
                     </span>
                 </div>
             </nav>
            </header>
     
-
+           <div id="popupContainer" class="popup-container">
+            <div class="popup-content">
+                <button class="closePopup" onclick="closePopup()">X</button>
+              <h2 class="popupTitle">Получите консультацию по строительству загородных домов!</h2>
+              <img src="/asset/img/popupHouseOne.png" alt="popupImg" class="popUpImg">
+    
+              <p class="popUpText">Мы готовы помочь вам воплотить мечту о вашем идеальном загородном доме. Наша команда опытных специалистов сделает все возможное, чтобы ваш дом стал олицетворением комфорта, красоты и качества. Не упустите шанс создать свое уютное гнездышко в окружении природы!</p>
+              <div class="inputBox">
+                <input type="text" class="placeholderForm">
+                <input type="number"class="placeholderForm">
+            </div>
+            <button class="sendFormpopup">Отправить</button>
+    
+            
+            </div>
+          </div>
+          
+          <div id="overlay" class="overlay"></div>
+          
            <main>
             <div class="main-logo">
                 <h1>Банер</h1>
@@ -311,6 +329,7 @@
 
 
     </div>
+    <script src="/services/services-gaz_beton/gaz-beton-page/main.js"></script>
 
     <script src="https://kit.fontawesome.com/1fb243072c.js" crossorigin="anonymous"></script>
 </body>
