@@ -150,7 +150,7 @@ a {
 .navigation {
     margin: 0 auto;
     display: flex;
-    /*margin-top: 8px;*/
+    /*margin-top: 28px;*/
     
 }
 
@@ -167,10 +167,11 @@ nav {
 
 
 
+
     position: fixed;
     background-color: white;
     border-radius: 20px;
-    top: 3%;
+    top: 35px;
     left: 50%;
     transform: translate(-50%, -50%);
 }
