@@ -426,6 +426,8 @@ display: block;
 .section-2-elements {
     display: flex;
     height: 150px;
+    width: 1440px;
+    position: relative;
 }
 
 .section2-block {
@@ -473,7 +475,8 @@ display: block;
 /* BOXICON */
 .boxIcon {
     position: absolute;
-    top: 2790px;
+    left: 900px;
+    bottom: 500px;
     background-color: #D9D9D9;
     width: 70px;
     height: 70px;
@@ -481,6 +484,8 @@ display: block;
     overflow: hidden;
     border-radius: 5px;
   }
+
+  
 
   .iconOne{
     position: relative;
@@ -523,9 +528,322 @@ display: block;
 
   
 /*  */
+.boxIconTwo {
+    position: absolute;
+    z-index: 1;
+    left: 560px;
+    top: -55px;
+    background-color: #D9D9D9;
+    width: 70px;
+    height: 70px;
+    transition: width 0.5s, height 0.5s;
+    overflow: hidden;
+    border-radius: 5px;
+  }
+  
+  .iconTwo {
+    position: relative;
+    left: 5px;
+    top: 16px;
+  }
+  
+  .boxIconTwo:hover {
+    width: 300px;
+    height: 400px;
+  }
+  
+  .noneBoxTwo {
+    opacity: 0;
+    transition: opacity 0.5s;
+    position: relative;
+    top: 20px;
+    left: 20px;
+  }
+  
+  .boxIconTwo:hover .noneBoxTwo {
+    opacity: 1;
+    pointer-events: auto;
+  }
+  
+  .boxIconListTwo {
+    position: relative;
+    left: 20px;
+    z-index: 99999;
+  }
+  
+  .boxIconListTwo li {
+    list-style: disc;
+    font-size: 14px;
+    margin-top: 10px;
+    z-index: 999999;
+  }
+  /*  */
 
 
+  .boxIconTree {
+    position: absolute;
+    z-index: 1;
+    left: 390px;
+    top: -55px;
+    z-index: 1;
+    background-color: #D9D9D9;
+    width: 70px;
+    height: 70px;
+    transition: width 0.5s, height 0.5s;
+    overflow: hidden;
+    border-radius: 5px;
+  }
+  
+  .iconTree {
+    position: relative;
+    left: 10px;
+    top: 16px;
+  }
+  
+  .boxIconTree:hover {
+    width: 300px;
+    height: 400px;
+  }
+  
+  .noneBoxTree {
+    opacity: 0;
+    transition: opacity 0.5s;
+    position: relative;
+    top: 20px;
+    left: 20px;
+  }
+  
+  .boxIconTree:hover .noneBoxTree {
+    opacity: 1;
+    pointer-events: auto;
+  }
+  
+  .boxIconListTree {
+    position: absolute;
+    left: 20px;
+    z-index: 99999;
+  }
+  
+  .boxIconListTree li {
+    list-style: disc;
+    font-size: 14px;
+    margin-top: 10px;
+    z-index: 999999;
+  }
+  
+  
+/* 
 
+
+ */
+
+ .boxIconFore {
+    position: absolute;
+    top: -150px;
+    z-index: 1;
+    z-index: 1;
+    background-color: #D9D9D9;
+    width: 70px;
+    height: 70px;
+    transition: width 0.5s, height 0.5s;
+    overflow: hidden;
+    border-radius: 5px;
+  }
+  
+  .iconFore {
+    position: relative;
+    left: 10px;
+    top: 16px;
+  }
+  
+  .boxIconFore:hover {
+    width: 300px;
+    height: 400px;
+  }
+  
+  .noneBoxFore {
+    opacity: 0;
+    transition: opacity 0.5s;
+    position: relative;
+    top: 20px;
+    left: 20px;
+  }
+  
+  .boxIconFore:hover .noneBoxTree {
+    opacity: 1;
+    pointer-events: auto;
+  }
+  
+  .boxIconListFore {
+    position: relative;
+    left: 20px;
+    z-index: 99999;
+  }
+  
+  .boxIconListFore li {
+    list-style: disc;
+    font-size: 14px;
+    margin-top: 10px;
+    z-index: 999999;
+  }
+  
+
+ /*  */
+ .boxIconVife {
+    position: absolute;
+    z-index: 1;
+    left:480px;
+    top: -55px;
+    z-index: 1;
+    background-color: #D9D9D9;
+    width: 70px;
+    height: 70px;
+    transition: width 0.5s, height 0.5s;
+    overflow: hidden;
+    border-radius: 5px;
+  }
+  
+  .iconVife {
+    position: relative;
+    left: 10px;
+    top: 16px;
+  }
+  
+  .boxIconVife:hover {
+    width: 300px;
+    height: 400px;
+  }
+  
+  .noneBoxVife {
+    opacity: 0;
+    transition: opacity 0.5s;
+    position: relative;
+    top: 20px;
+    left: 20px;
+  }
+  
+  .boxIconVife:hover .noneBoxVife {
+    opacity: 1;
+    pointer-events: auto;
+  }
+  
+  .boxIconListVife {
+    position: relative;
+    left: 20px;
+    z-index: 99999;
+  }
+  
+  .boxIconListVife li {
+    list-style: disc;
+    font-size: 14px;
+    margin-top: 10px;
+    z-index: 999999;
+  }
+  
+
+/*  */
+.boxIconSix {
+    position: absolute;
+    z-index: 1;
+    left: 980px;
+    top: -200px;
+    z-index: 1;
+    background-color: #D9D9D9;
+    width: 70px;
+    height: 70px;
+    transition: width 0.5s, height 0.5s;
+    overflow: hidden;
+    border-radius: 5px;
+  }
+  
+  .iconSix {
+    position: relative;
+    left: 10px;
+    top: 16px;
+  }
+  
+  .boxIconSix:hover {
+    width: 300px;
+    height: 400px;
+  }
+  
+  .noneBoxSix {
+    opacity: 0;
+    transition: opacity 0.5s;
+    position: relative;
+    top: 20px;
+    left: 20px;
+  }
+  
+  .boxIconSix:hover .noneBoxSix {
+    opacity: 1;
+    pointer-events: auto;
+  }
+  
+  .boxIconListSix {
+    position: relative;
+    left: 20px;
+    z-index: 99999;
+  }
+  
+  .boxIconListSix li {
+    list-style: disc;
+    font-size: 14px;
+    margin-top: 10px;
+    z-index: 999999;
+  }
+  
+/*  */
+.boxIconSeven {
+    position: absolute;
+    z-index: 1;
+    top: -500px;
+    z-index: 1;
+    background-color: #D9D9D9;
+    width: 70px;
+    height: 70px;
+    transition: width 0.5s, height 0.5s;
+    overflow: hidden;
+    border-radius: 5px;
+  }
+  
+  .iconSeven {
+    position: relative;
+    left: 10px;
+    top: 16px;
+  }
+  
+  .boxIconSeven:hover {
+    width: 300px;
+    height: 400px;
+  }
+  
+  .noneBoxSeven {
+    opacity: 0;
+    transition: opacity 0.5s;
+    position: relative;
+    top: 20px;
+    left: 20px;
+  }
+  
+  .boxIconSeven:hover .noneBoxSeven {
+    opacity: 1;
+    pointer-events: auto;
+  }
+  
+  .boxIconListSeven {
+    position: relative;
+    left: 20px;
+    z-index: 99999;
+  }
+  
+  .boxIconListSeven li {
+    list-style: disc;
+    font-size: 14px;
+    margin-top: 10px;
+    z-index: 999999;
+  }
+/*  */
 
 #el-1 {
     left: 100px;
@@ -628,8 +946,21 @@ display: block;
     width: 1280px;
     margin: 0 auto;
 }
-.section-2-slider img {
+
+
+.imgTree{
     width: 1280px;
+    height: 600px;
+
+}
+.imgTwo{
+    width: 1280px;
+    height: 600px;
+
+}
+.imgOne{
+    width: 1280px;
+    height: 600px;
 }
 
 
@@ -660,6 +991,41 @@ display: block;
     padding-top: 20px;
 }
 
+.slider {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+}
+
+.slider-images {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.slider-images img {
+  flex-shrink: 0;
+  width: 100%;
+  height: auto;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.slider-images img.active {
+  opacity: 1;
+}
+
+.slider-buttons {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.slider-buttons button {
+  padding: 10px 20px;
+  margin: 0 5px;
+}
 
 
 
