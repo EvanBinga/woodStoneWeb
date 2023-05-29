@@ -982,6 +982,9 @@ footer i:hover {
 /*adaptiveStart*/
 
 @media (max-width:800px) {
+    .container {
+        overflow: hidden;
+    }
     main {
         width: 100%;
     }
@@ -1008,6 +1011,7 @@ footer i:hover {
     }
     .slider-1-buttons {
         width: auto;
+        margin-left: 0;
     }
     .slider-1-buttons p {
         text-align: center;
@@ -1024,6 +1028,12 @@ footer i:hover {
     }
     .content-row-1 {
         flex-direction: column;
+    }
+    .content-row-1-block {
+        width: 100%;
+    }
+    .content img {
+        width: 100%;
     }
     /**/
 
@@ -1049,20 +1059,116 @@ footer i:hover {
     .section-2-slider {
         width: auto;
         height: auto;
+        max-height: 1010px;
     }
     .section-2-slider p {
         margin-left: 0;
         font-size: 25px;
         text-align: center;
+        line-height: normal;
     }
     .section-2-slider img {
         max-width: 250px;
         max-height: 214px;
         margin: 0 auto;
         padding-top: 0;
+        width: 100%;
     }
     .section2BlockFlex {
         display: flex;
         flex-direction: column;
+    }
+    .section-2-buttons div {
+        width: auto;
+    }
+    #section-2-block {
+        width: auto;
+        border-radius: 0;
+    }
+    #checkbox {
+        margin-left: 50px;
+    }
+/**/
+
+    .section-3 {
+        width: 100%;
+        background-image: none;
+
+    }
+    .section-3-form-block form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section-3-form-block {
+        margin-left: 0;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .section-3-form-block h1 {
+        margin-left: 0;
+        text-align: center;
+        font-size: 30px;
+        padding-top: 50px;
+    }
+    .section-3-form-block p {
+        margin-left: 0;
+        text-align: center;
+    }
+    .section-3-form-block input {
+        max-width: 298px;
+        width: 100%;
+        margin-left: 0;
+    }
+    .section-3-form-block-row-1 {
+        max-width: 340px;
+        width: 100%;
+        position: static;
+        margin: 0 auto;
+        margin-top: 75px;
+        
+    }
+    .section-3-form-block-time {
+        margin-left: 0;
+    }
+    .section-3-form-block a {
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+
+    .section3BlockSliderBtn {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    #form-row-slider {
+       width: 50px;
+       margin: 0;
+       margin-top: 10px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:444px) {
+    .slider-1-buttons p {
+        font-size: 11px;
     }
 }

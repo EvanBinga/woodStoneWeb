@@ -150,7 +150,7 @@ a {
 .navigation {
     margin: 0 auto;
     display: flex;
-    margin-top: 8px;
+    /*margin-top: 8px;*/
     
 }
 
@@ -163,6 +163,16 @@ nav {
     width: 1280px;
     margin: 0 auto;
     height: 71px;
+
+
+
+
+    position: fixed;
+    background-color: white;
+    border-radius: 20px;
+    top: 3%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 nav span {
     display: flex;
@@ -220,6 +230,7 @@ nav ul {
 .section-1 {
     width: 1280px;
     margin: 0 auto;
+    margin-top: 80px;
 }
 
 /*tittle-block*/
