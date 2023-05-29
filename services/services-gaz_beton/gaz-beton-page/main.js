@@ -137,40 +137,42 @@ const openPopup = () => {
 
 // // Показываем первый слайд при загрузке страницы
 // showSlide(currentIndex);
-const sliderImages = document.querySelector('.slider-images');
-const prevButton = document.querySelector('.prev-button');
-const nextButton = document.querySelector('.next-button');
-const images = Array.from(document.querySelectorAll('.slider-images img'));
 
-let currentIndex = 0;
 
-function showImage(index) {
-  images.forEach((image, i) => {
-    if (i === index) {
-      image.classList.add('active');
-    } else {
-      image.classList.remove('active');
-    }
-  });
-}
+document.addEventListener('DOMContentLoaded', function() {
+  const sliderImages = document.querySelector('.slider-images');
+  const prevButton = document.querySelector('.buttonSliderPrev');
+  const nextButton = document.querySelector('.buttonSliderNext');
 
-function slidePrev() {
-  currentIndex--;
-  if (currentIndex < 0) {
-    currentIndex = images.length - 1;
+  const images = Array.from(document.querySelectorAll('.slider-images img'));
+  const imageWidth = images[0].getBoundingClientRect().width;
+
+  // Устанавливаем начальный индекс активного слайда
+  let activeIndex = 0;
+
+  // Функция для перемещения слайдера
+  function moveToSlide(index) {
+    sliderImages.style.transform = `translateX(-${index * imageWidth}px)`;
+    images.forEach((image) => image.classList.remove('active'));
+    images[index].classList.add('active');
   }
-  showImage(currentIndex);
-}
 
-function slideNext() {
-  currentIndex++;
-  if (currentIndex >= images.length) {
-    currentIndex = 0;
+  // Переключение на предыдущий слайд
+  function slidePrev() {
+    activeIndex = (activeIndex - 1 + images.length) % images.length;
+    moveToSlide(activeIndex);
   }
-  showImage(currentIndex);
-}
 
-prevButton.addEventListener('click', slidePrev);
-nextButton.addEventListener('click', slideNext);
+  // Переключение на следующий слайд
+  function slideNext() {
+    activeIndex = (activeIndex + 1) % images.length;
+    moveToSlide(activeIndex);
+  }
 
-showImage(currentIndex);
+  // Назначаем обработчики событий на кнопки
+  prevButton.addEventListener('click', slidePrev);
+  nextButton.addEventListener('click', slideNext);
+
+  // Применяем начальное состояние слайдера
+  images[activeIndex].classList.add('active');
+});
