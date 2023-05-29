@@ -54,3 +54,4 @@ tabs.forEach((tab, index) => { tab.addEventListener('click', () => {
     tabContents[index].classList.add('active');
   });
 });
+
