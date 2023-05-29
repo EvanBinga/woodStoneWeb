@@ -1020,10 +1020,15 @@ display: block;
     bottom: 20px;
     left: 50%;
     transform: translateX(-50%);
+    background-color: #00000061;
+    padding: 20px 30px;
+    border-radius: 10px;
+
   }
   
   .slider-buttons button {
     background-color: #00000000;
+    color: #000000;
     margin: 0 5px;
     border: 0;
   }
