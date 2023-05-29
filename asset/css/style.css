@@ -226,25 +226,16 @@ a {
 
 /*  */
 
-
 /*navigation*/
 .navigation {
     margin: 0 auto;
     display: flex;
     margin-top: 8px;
-    position: fixed;
-    background-color: white;
-    width: 1440px;
-    left: 0;
-    z-index: 999999;
-    top: -10px;
+    
 }
-
-
 
 .container {
     margin: 0 auto;
-    position: relative;
 }
 
 nav {
@@ -252,13 +243,10 @@ nav {
     width: 1280px;
     margin: 0 auto;
     height: 71px;
-    position: relative;
 }
 nav span {
     display: flex;
     align-items: center;
-    position: relative;
-    left: 190px;
 }
 
 /**/
@@ -306,10 +294,6 @@ nav ul {
     align-items: center;
     position: relative;
     left: 53px;
-}
-
-.callbackButton{
-
 }
 /*navigation*/
 
