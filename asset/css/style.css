@@ -1,7 +1,7 @@
 
 /*main*/
 main {
-    max-width: 1980px;
+    max-width: 1920px;
     margin: 0 auto;
 }
 .mainImg {
@@ -785,7 +785,7 @@ main p {
 
 }
 
-#s5-b1 h1 {
+#s5-b1 h1{
     color: #FFFFFF;
     margin-left: 23px;
     font-size: 21.2483px;
@@ -834,354 +834,6 @@ main p {
 /**/
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*
-
-@media (max-width: 880px) {
-
-      
-
-.callbackButton{
-    display: none;
-}
-
-
-    .logo{
-   display: none;
-    }
-
-    .logoTwo{
-        display: block;
-        z-index: 9999999;
-        position: fixed;
-        width: 80px;
-        padding-left: 30px;
-        top: 1px;
-    }
-
-    .navigation {
-        margin: 0 auto;
-        display: block;
-        background-color: #222222;
-        position: fixed;
-        top: -3360px;
-        width: 100%;
-        height: 100%;
-        z-index: 99999999;
-
-    }
-
-    .navigation.active{
-        top: 60px;
-        transition: 0.4s;
-    }
-    
-    
-    
- 
-    
-    nav {
-        position: fixed;
-        display: block;
-       height: 60px;
-       top: 0;
-       width: 100%;
-       left: 0;
-       background-color: #ffffff;
-       z-index: 999999;
-
-    }
-    nav span {
-        display: block;
-    }
-    
-    /**/
-    /*
-    nav span:first-child {
-        margin: 0;
-    }
-    nav span:first-child a {
-        margin: 0;
-    }
-    nav span:last-child {
-        margin: 0;
-    }
-    nav span:last-child a{
-        /*margin-left: 85px;*/
-
-    /*    
-    }
-
-
-    
-    /**/
-    /*
-    nav ul {
-        display: block;
-        position: relative;
-        text-align: center;
-        
-    }
-    nav li {
-        margin-top: 60px;
-        display: block;
-        color: #ffffff;
-    }
-    
-    li a{
-        color: white;
-    }
-    #link-1 {
-        color: #ffffff;
-    }
-    #link-3 {
-        margin: 0;
-        display: block;
-        position: relative;
-        margin: 0;
-
-    }
-    #link-4 {
-        display: block;
-        position: relative;
-        margin: 0;
-
-    }
-    #link-5 {
-        margin: 0;
-        display: block;
-        position: relative;
-
-
-    }
-    
-    .listItem {
-        display: none;
-        
-    }
-
-
-
-.logo{
-    display: none;
-}
-
-
-.menu-btn {
-    position: fixed;
-    right: 0;
-    padding-right: 30px;
-    display: block;
-    top: 0;
-}
-
-body{
-    width: 100%;
-    margin: 0 auto;
-}
-
-main {
-    width: 100%;
-
-}
-
-
-.landosImg {
-    width: 100%;
-    height: 200px;
-}
-
-.main-text{
-    position: relative;
-    width: 100px;
-    margin: 0;
-}
-
-.landosText{
-    width: 100px;
-    margin: 0;
-    font-size: 11px;
-    display: none;
-}
-
-.landosTextOne{
-    font-size: 15px;
-    display: none;
-}
-.textBox{
-    font-size: 10px;
-    width: 50px;
-}
-
-.textBox h1{
-    font-size: 10px;
-    width: 50px;
-}
-
-.textBox p{
-    font-size: 10px;
-    width: 50px;
-}
-
-.textBox a{
-    font-size: 10px;
-    width: 50px;
-}
-
-.imgText{
-    display: block;
-    text-align: center;
-    font-size: 20px;
-    color: white;
-    position: relative;
-    top: 140px;
-    line-height: 30px;
-}
-
-.main-row{
-display: none;
-
-}
-
-
-
-.boxMain {
-    width: 100%;
-}
-.imgMain {
-    width: 200px;
-}
-.mainBlack {
-    position: relative;
-    top: -30px;
-    background-color: #000000;
-    color: #FFFFFF;
-    width: 200px;
-    height: 30px;
-}
-
-.adaptiveMain{
-    display: flex;
-    width: 430px;
-    margin: 0 auto;
-    position: relative;
-    top: 300px;
-
-}
-
-.boxMain{
-    margin: 10px;
-}
-
-.section-1{
-    position: relative;
-    top: 500px;
-    background-color: #9b7c7c;
-    width: 100%;
-}
-
-#section-1{
-    position: relative;
-    top: 100px;
-    margin: 0;
-}
-.section-1-row{
-    display: block;
-    width: 100%;
-}
-.section-1-row p{
-    display: block;
-    width: 100%;
-}
-
-.section-1-years-row{
-    display: block;
-    width: 100%;
-}
-
-
-.section-1-ryears-row p{
-    display: block;
-    width: 100%;
-}
-
-
-
-.section-1-row-block-1{
-    width: 100%;
-}
-.section-1-row-block-1 h1{
-    width: 400px;
-    background-color: #000000;
-}
-
-
-
-.section-1-row-block-2{
-    width: 300px;
-    background-color: #000000;
-}
-
-.section-1-row-block-2 img{
-    width: 300px;
-    background-color: #000000;
-}
-
-.section-1-years{
-    width: 100%;
-}
-
-.section-1-years-row{
-    width: 100%;
-}
-
-.section-1-years p{
-    width: 100px;
-}
-
-.section-1-years-row p{
-    width: 100px;
-}
-
-.section-1-years-row h1{
-    width: 100px;
-}
-
-
-
-
-/*main*/
-/*
-
-.none{
-    display: none;
-}
-
-
-}
-
-
-
-/*footer*/
-
-/**/
 
 
 
@@ -1350,12 +1002,13 @@ display: none;
         /*width: 100%;
         max-width: 150px;*/
         min-width: 1px;
+        overflow: hidden;
     }
     .section-1-years-row h1 {
         font-size: 30px;
     }
     .section-1-years p {
-        font-size: 16px;
+        font-size: 14px;
         line-height: normal;
         width: 100%;
     }
@@ -1370,6 +1023,7 @@ display: none;
     }
     .listTest {
         width: 100%;
+        font-size: 9px;
     }
     .listItemTest {
         padding: 1px;
@@ -1399,22 +1053,74 @@ display: none;
     }
     .section-2-video h1 {
         text-align: center;
+        margin-left: 0;
     }
     .section-2-video p {
         width: auto;
         text-align: center;
     }
+    
     /*section2*/
 
 
 /*section3*/
 .section-3 {
-    width: auto;
+    width: 100%;
+    background-image: none;
+
+}
+.section-3-form-block form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-3-form-block {
+    margin-left: 0;
+    width: 100%;
+    overflow: hidden;
+}
+
+.section-3-form-block h1 {
+    margin-left: 0;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 50px;
+}
+.section-3-form-block p {
+    margin-left: 0;
+    text-align: center;
+}
+.section-3-form-block input {
+    max-width: 298px;
+    width: 100%;
+    margin-left: 0;
+}
+.section-3-form-block-row-1 {
+    max-width: 340px;
+    width: 100%;
+    position: static;
+    margin: 0 auto;
+    margin-top: 75px;
+    
+}
+.section-3-form-block-time {
+    margin-left: 0;
+}
+.section-3-form-block a {
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.section3BlockSliderBtn {
+    width: 100%;
     display: flex;
     justify-content: center;
 }
-.section-3-form-block {
-    margin-left: 0;
+#form-row-slider {
+   width: 50px;
+   margin: 0;
+   margin-top: 10px;
 }
 /*section3*/
 /*section4*/
@@ -1447,7 +1153,7 @@ display: none;
     width: 100%;
 }
 #reviews-link {
-    max-width: 364px;
+    max-width: 300px;
     width: 100%;
     margin: 0 auto;
     margin-top: 25px;
@@ -1478,6 +1184,7 @@ display: none;
 }
 #s5-b1 {
     width: 100%;
+   /* display: none;*/
 }
 #s5-b1 img {
     width: 100%;
@@ -1485,9 +1192,11 @@ display: none;
 #s5-b1-content {
     width: 100%;
 }
-footer {
+
+.section5Check-2 {
     display: none;
 }
+
 /*section5*/
 
 
@@ -1520,3 +1229,41 @@ footer {
 #s5-b1-content {
     position: static;
 }
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:550px) {
+    .grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
