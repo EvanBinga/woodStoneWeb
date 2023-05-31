@@ -280,35 +280,6 @@ main {
 /*main*/
 
 /*slider-1*/
-.slider-1-margin {
-    width: 1280px;
-    margin: 0 auto;
-}
-.slider-1-buttons {
-    display: flex;
-    width: 1156px;
-    border-bottom: 1px solid;
-    margin-top: 50px;
-    margin-left: 25px;
-}
-.slider-1-buttons p {
-    border-right: solid 1px;
-    cursor: pointer;
-    transition: 0.15s;
-    width: 230px;
-    height: 35px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-}
-.slider-1-buttons p:first-child {
-    border-left: 1px solid;
-}
-.slider-1-buttons p:hover {
-    background: #322C27;
-    color: white;
-}
 
 
 
@@ -773,12 +744,85 @@ footer i:hover {
 
 
 
+.contentTask {
+    margin-top: 100px;
+    column-count: 3;
+    column-gap: 20px; /* Опционально: задает промежуток между столбцами */
+  }
 
+  .contentTaskOne{
+    margin-top: 100px;
+    column-count: 3;
+    column-gap: 20px;
+  }
+  
+  .boxTask {
+    break-inside: avoid; /* Опционально: предотвращает разрыв блоков между столбцами */
+  }
+
+  .contentTask,
+  .contentTaskOne,
+  .contentTaskTwo,
+  .contentTaskThree,
+  .contentTaskFour
+   {
+    display: none;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    margin-top: 0;
+    column-count: 3;
+    column-gap: 20px;
+  }
+  
+  .contentTask.show,
+  .contentTaskOne.show,
+  .contentTaskTwo.show,
+  .contentTaskThree.show,
+  .contentTaskFour.show {
+    display: block;
+    opacity: 1;
+  }
+  
+
+  .active {
+    background-color: #ccc;
+  }
+
+
+  .slider-1-margin {
+    width: 1280px;
+    margin: 0 auto;
+}
+.slider-1-buttons {
+    display: flex;
+    width: 1156px;
+    border-bottom: 1px solid;
+    margin-top: 50px;
+    margin-left: 25px;
+}
+.slider-1-buttons p {
+    border-right: solid 1px;
+    cursor: pointer;
+    transition: 0.15s;
+    width: 230px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.slider-1-buttons p:first-child {
+    border-left: 1px solid;
+}
+.slider-1-buttons p:hover {
+    background: #322C27;
+    color: white;
+}
 
 /*footer*/
 
-
-
+  
+  
 
 @media (max-width: 1280px) {
     main {
@@ -1013,10 +1057,23 @@ footer i:hover {
         width: auto;
         margin-left: 0;
     }
-    .slider-1-buttons p {
+    /* .slider-1-buttons p {
+      
+    } */
+
+    .tab-button {
+        cursor: pointer;
         text-align: center;
         font-size: 15px;
-    }
+        padding: 10px 20px;
+        background-color: #f0f0f0;
+        transition: background-color 0.3s ease;
+      }
+      
+    
+      .active {
+        background-color: #ccc;
+      }
     /**/
 
     .content {

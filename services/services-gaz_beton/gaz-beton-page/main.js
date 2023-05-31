@@ -19,7 +19,9 @@ function changeTab(tabIndex) {
     }
 }   
 
-
+document.addEventListener('DOMContentLoaded', function() {
+  openTab(1);
+});
 
 const openPopup = () => {
     const popup = document.getElementById('popupContainer');
@@ -176,3 +178,90 @@ document.addEventListener('DOMContentLoaded', function() {
   // Применяем начальное состояние слайдера
   images[activeIndex].classList.add('active');
 });
+
+
+
+document.addEventListener('DOMContentLoaded', function() {
+  const smoothScrollLinks = document.querySelectorAll('.smooth-scroll');
+
+  smoothScrollLinks.forEach(function(link) {
+    link.addEventListener('click', function(event) {
+      event.preventDefault();
+
+      const targetId = this.getAttribute('href');
+      const targetElement = document.querySelector(targetId);
+
+      if (targetElement) {
+        targetElement.scrollIntoView({
+          behavior: 'smooth',
+        });
+      }
+    });
+  });
+});
+
+
+function openTab(tabIndex) {
+  var tabButtons = document.getElementsByClassName('tab-button');
+  var contentTasks = document.getElementsByClassName('contentTask');
+  var contentTasksOne = document.getElementsByClassName('contentTaskOne');
+  var contentTasksTwo = document.getElementsByClassName('contentTaskTwo');
+  var contentTasksThree = document.getElementsByClassName('contentTaskThree');
+  var contentTasksFour = document.getElementsByClassName('contentTaskFour');
+
+  for (var i = 0; i < contentTasks.length; i++) {
+    contentTasks[i].classList.remove('show');
+  }
+  for (var i = 0; i < contentTasksOne.length; i++) {
+    contentTasksOne[i].classList.remove('show');
+  }
+  for (var i = 0; i < contentTasksTwo.length; i++) {
+    contentTasksTwo[i].classList.remove('show');
+  }
+  for (var i = 0; i < contentTasksThree.length; i++) {
+    contentTasksThree[i].classList.remove('show');
+  }
+  for (var i = 0; i < contentTasksFour.length; i++) {
+    contentTasksFour[i].classList.remove('show');
+  }
+
+  for (var i = 0; i < tabButtons.length; i++) {
+    tabButtons[i].classList.remove('active');
+  }
+
+  if (tabIndex === 1) {
+    for (var i = 0; i < contentTasks.length; i++) {
+      contentTasks[i].classList.add('show');
+    }
+  } else if (tabIndex === 2) {
+    for (var i = 0; i < contentTasksOne.length; i++) {
+      contentTasksOne[i].classList.add('show');
+    }
+  } else if (tabIndex === 3) {
+    for (var i = 0; i < contentTasksTwo.length; i++) {
+      contentTasksTwo[i].classList.add('show');
+    }
+  } else if (tabIndex === 4) {
+    for (var i = 0; i < contentTasksThree.length; i++) {
+      contentTasksThree[i].classList.add('show');
+    }
+  } else if (tabIndex === 5) {
+    for (var i = 0; i < contentTasksFour.length; i++) {
+      contentTasksFour[i].classList.add('show');
+    }
+  }
+
+  tabButtons[tabIndex - 1].classList.add('active');
+
+  if (tabIndex === 1) {
+    window.location.href = "/index.html";
+  } else if (tabIndex === 2) {
+    window.location.href = "/Houses/houses.html";
+  }
+  // Добавьте аналогичный код для остальных вкладок
+  
+}
+document.getElementById("tab1").classList.add('active');
+document.getElementsByClassName('contentTask')[0].classList.add('show');
+
+
