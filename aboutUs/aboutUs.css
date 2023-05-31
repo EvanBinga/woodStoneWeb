@@ -342,6 +342,10 @@ text-align: center;
         width: 100%;
         height: auto;
         position: static;
+
+        padding-left: 10px;
+        padding-right: 10px;
+        box-sizing: border-box;
     }
     .blockOnePageOne img:last-child {
         display: none;
@@ -370,6 +374,10 @@ text-align: center;
         width: 100%;
         height: auto;
         margin-top: 15px;
+
+        padding-left: 10px;
+        padding-right: 10px;
+        box-sizing: border-box;
     }
     .blockTwoPageTwo img:last-child {
         display: none;
@@ -387,6 +395,10 @@ text-align: center;
         position: static;
         width: 100%;
         height: auto;
+
+        padding-left: 10px;
+        padding-right: 10px;
+        box-sizing: border-box;
     }
     .blockThreePageOne img:last-child {
         display: none;
@@ -414,9 +426,7 @@ text-align: center;
         grid-template-columns: 1fr;
     }
 
-
-
-
+/*form*/
     .section-form {
         width: 100%;
     }
