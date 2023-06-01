@@ -1,5 +1,6 @@
 /*main*/
 main {
+    padding-top: 80px;
     max-width: 1980px;
     /*width: 100%;*/
     text-align: center;
@@ -7,7 +8,9 @@ main {
 }
 .mainBlock {
     background-image: url(/asset/img/AboutUs/Rectangle\ 189.png);
-    background-size: cover;
+    background-size: cover; 
+    background-attachment: fixed;
+
     height: 800px;
     max-width: 1980px;
     min-width: 1280px;
@@ -311,6 +314,7 @@ text-align: center;
         display: flex;
         flex-direction: column;
         justify-content: center;
+        background-size: auto;
     }
     .mainBlock p {
         width: 100%;
@@ -425,6 +429,10 @@ text-align: center;
         width: auto;
         grid-template-columns: 1fr;
     }
+    .reviewsBlock div {
+        max-width: 350px;
+        width: 100%;
+    }
 
 /*form*/
     .section-form {
@@ -458,3 +466,14 @@ text-align: center;
 
 
 }
+        @media (max-width:360px) {
+            .form-content input {
+                padding-left: 8px;
+            }
+        }
+
+    @media (min-width:1920px) {
+        .mainBlock {
+            background-size: 157em 111em;
+        }
+    }        
