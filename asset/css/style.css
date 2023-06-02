@@ -112,6 +112,21 @@ main p {
     margin: 0 auto;
 }
 
+
+.blockGrid a{
+    color: white;
+}
+
+.gridButton{
+    color: white;
+    background-color: #000000;
+    z-index: 999999;
+    position: relative;
+    padding: 10px;
+    border-radius: 20px;
+    top: 50px;
+}
+
 .grid {
     
     width: 1019px;
@@ -504,9 +519,25 @@ main p {
 
 }
 .itemOne {
+    width: 400px;
+    height: 380px;
 }
 .imgOne {
+    width: 400px;
+    height: 340px;
+
 }
+
+.imgOne2{
+    width: 400px;
+    height: 340px;
+}
+
+.imgOne1{
+    width: 400px;
+
+}
+
 .testTextOne {
    color: black;
     margin-left: 30px;
@@ -518,8 +549,12 @@ main p {
     display: flex;
 }
 
-#checkbox{
+.checkbox{
     margin-left: 230px;
+}
+
+.checkboxM{
+
 }
 
 .listItemTest.active {
