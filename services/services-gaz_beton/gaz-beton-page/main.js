@@ -251,13 +251,13 @@ function openTab(tabIndex) {
     }
   }
 
-  tabButtons[tabIndex - 1].classList.add('active');
+  // tabButtons[tabIndex - 1].classList.add('active');
 
-  if (tabIndex === 1) {
-    window.location.href = "/index.html";
-  } else if (tabIndex === 2) {
-    window.location.href = "/Houses/houses.html";
-  }
+  // if (tabIndex === 1) {
+  //   window.location.href = "/index.html";
+  // } else if (tabIndex === 2) {
+  //   window.location.href = "/Houses/houses.html";
+  // }
   // Добавьте аналогичный код для остальных вкладок
   
 }
