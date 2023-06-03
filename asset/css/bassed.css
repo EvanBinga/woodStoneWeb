@@ -277,7 +277,7 @@ nav ul {
 
 
 #link-1 {
-    color: #8C681B;
+    /* color: #8C681B; */
 }
 
 #link-3 {
@@ -306,6 +306,12 @@ nav ul {
     align-items: center;
     position: relative;
     left: 53px;
+    cursor: pointer;
+}
+/*hover*/
+#link-1:hover, #link-2:hover, #link-3:hover, #link-4:hover, #link-5:hover, #link-6:hover {
+    color: #8C681B;
+    transition: 0.15s;
 }
 
 /*navigation*/
