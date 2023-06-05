@@ -5,15 +5,19 @@ main {
     margin-top: 80px;
 }
 .mainImg {
-    background-image: url(/asset/img/landing_img.png);
-    height: 500px;
-    background-size: cover;
+    background-image: url(/asset/img/mainLogo.jpg);
+    height: 800px;
+    /* background-size: cover; */
     width: 100%;
     min-width: 1280px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+    background-attachment: fixed;
+    background-position: left;
+    background-position: top;
 }
 
 
@@ -38,7 +42,7 @@ nav ul {
 
 
 #link-1 {
-    color: #8C681B;
+    /* color: #8C681B; */
 }
 #link-3 {
     margin: 0;
@@ -65,6 +69,12 @@ nav ul {
     position: relative;
     left: 53px;
 }
+
+
+
+
+
+
 /*navigation*/
 
 
@@ -115,6 +125,7 @@ main p {
 .gridBlocking {
     width: 1280px;
     margin: 0 auto;
+    overflow: hidden;
 }
 
 
@@ -161,6 +172,31 @@ main p {
 
    
 }
+.textBox {
+    text-align: center;
+}
+.textBox h1 {
+    font-size: 21px;
+    padding-top: 10px;
+}
+.textBox p {
+    padding-top: 30px;
+}
+.textBox a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 228px;
+    height: 34px;
+    background-color: #000000;
+    color: white;
+    margin: 0 auto;
+    border-radius: 20px;
+    /* margin-top: 40px; */
+}
+
+
 
 
 .main-text p {
@@ -233,24 +269,41 @@ main p {
 
 
 /**/
+.blockLink{
+    height: 193px;
+}
+.blockLink p:hover{
+    color: rgba(140, 104, 27, 1);
+}
+/* #main-black-1:hover {
+    color: #8C681B;
+} */
+
+.blockLink:hover p#main-black-1, .blockLink:hover p#main-black-2, .blockLink:hover p#main-black-3, .blockLink:hover p#main-black-4, .blockLink:hover p#main-black-5, .blockLink:hover p#main-black-6, .pluningButton:hover p#main-black-7, .blockGrid:hover a {
+    color: rgba(140, 104, 27, 1);
+    transition: 0.15s;
+}
+
+
 #main-black-1 {
-    width: 259px;
+    width: 267px;
     height: 49px;
     background-color: black;
     position: relative;
     top: -52px;
     border-bottom-left-radius: 23px;
-    color: #8C681B;
+    color: white;
     font-weight: 400;
     font-size: 20px;
     line-height: 35px;
     display: flex;
+    justify-content: center;
     align-items: center;
-    padding-left: 8px;
+    
     
 }
 #main-black-2 {
-    width: 254px;
+    width: 267px;
     height: 49px;
     background-color: black;
     position: relative;
@@ -262,10 +315,10 @@ main p {
     line-height: 35px;
     display: flex;
     align-items: center;
-    padding-left: 13px;
+    justify-content: center;
 }
 #main-black-3 {
-    width: 260px;
+    width: 275px;
     height: 49px;
     background-color: black;
     position: relative;
@@ -277,7 +330,7 @@ main p {
     line-height: 35px;
     display: flex;
     align-items: center;
-    padding-left: 15px;
+    justify-content: center;
 
 
 }
@@ -302,11 +355,11 @@ main p {
 
 /**/
 #main-black-4 {
-    width: 267px;
+    width: 279px;
     height: 49px;
     background-color: black;
     position: relative;
-    top: -46px;
+    top: -89px;
     border-bottom-left-radius: 23px;
     color: white;
     font-weight: 400;
@@ -314,15 +367,15 @@ main p {
     line-height: 35px;
     display: flex;
     align-items: center;
-    padding-left: 12px;
+    justify-content: center;
 }
 
 #main-black-5 {
-    width: 263px;
+    width: 275px;
     height: 49px;
     background-color: black;
     position: relative;
-    top: -46px;
+    top: -89px;
     border-bottom-left-radius: 23px;
     color: white;
     font-weight: 400;
@@ -330,15 +383,15 @@ main p {
     line-height: 35px;
     display: flex;
     align-items: center;
-    padding-left: 12px;
+    justify-content: center;
 }
 
 #main-black-6 {
-    width: 263px;
+    width: 275px;
     height: 49px;
     background-color: black;
     position: relative;
-    top: -46px;
+    top: -89px;
     border-bottom-left-radius: 23px;
     color: white;
     font-weight: 400;
@@ -346,15 +399,15 @@ main p {
     line-height: 35px;
     display: flex;
     align-items: center;
-    padding-left: 12px;
+    justify-content: center;
 }
 
 #main-black-7 {
-    width: 263px;
+    width: 221px;
     height: 49px;
     background-color: black;
     position: relative;
-    top: -46px;
+    top: -89px;
     border-bottom-left-radius: 23px;
     color: white;
     font-weight: 400;
@@ -362,7 +415,9 @@ main p {
     line-height: 20px;
     display: flex;
     align-items: center;
-    padding-left: 12px;
+    justify-content: center;
+    cursor: pointer;
+    padding-left: 51px;
 }
 /**/
 
@@ -386,6 +441,7 @@ main p {
     color: rgba(140, 104, 27, 1);
     font-weight: 400;
     font-size: 40px;
+    margin-left: 10px;
 }
 .section-1-row-block-1 p:nth-child(2) {
     margin-top: 40px;
@@ -393,6 +449,7 @@ main p {
     font-weight: 400;
     font-size: 30px;
     width: 385px;
+    margin-left: 10px;
 }
 .section-1-row-block-1 p:nth-child(3) {
     margin-top: 20px;
@@ -400,12 +457,13 @@ main p {
     font-size: 20px;
     line-height: 33px;
     width: 647px;
+    margin-left: 10px;
 }
 
 
 .section-1-row-block-2 img {
-    width: 592px;
-    height: 573px;
+    width: 578px;
+    height: 564px;
     margin-top: 112px;
     margin-left: 40px;
 }
@@ -414,6 +472,7 @@ main p {
     margin: 0 auto;
     width: 1280px;
     margin-top: 121px;
+    overflow: hidden;
 }
 .section-1-years-row {
     display: flex;
@@ -423,6 +482,7 @@ main p {
     font-weight: 400;
     font-size: 40px;
     color: #8C681B;
+     margin-left: 10px; 
 }
 .section-1-years-row div {
     width: 300px;
@@ -473,11 +533,12 @@ main p {
 }
 .titleTest {
     font-size: 40px;
+    text-align: center;
     
 }
 .listTest {
     display: flex;
-
+    justify-content: center;
     position: relative;
     top: 28px;
 }
@@ -541,7 +602,8 @@ main p {
 }
 
 .imgOne1{
-    width: 400px;
+    max-width: 400px;
+    width: 100%;
 
 }
 
@@ -1164,6 +1226,7 @@ main p {
     .section-1-years p {
         font-size: 30px;
         text-align: center;
+        margin-left: 0;
     }
     .section-1-years-row {
         width: 100%;
@@ -1416,7 +1479,38 @@ main p {
     }
 }
 
+/*adaptiveSlider*/
 
+    @media (max-width:800px) {
+        .listItemTest {
+            padding: 20px;
+            font-size: 15px;
+        }
+        .itemOne {
+            max-width: 400px;
+            width: 100%;
+        }
+    }
+
+    @media (max-width:700px) {
+        .listItemTest {
+            padding: 15px;
+            font-size: 10px;
+        }
+    }
+
+    @media (max-width:420px) {
+        .listItemTest {
+            padding: 7px;
+            font-size: 10px;
+            overflow: hidden;
+        }
+    }
+
+
+
+
+/**/
 
 
 

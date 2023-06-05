@@ -297,9 +297,9 @@ nav ul {
 
 
 
-
-
-
+#link-1 {
+    color: #8C681B;
+}
 
 #link-3 {
     margin: 0;
@@ -327,22 +327,6 @@ nav ul {
     align-items: center;
     position: relative;
     left: 53px;
-    cursor: pointer;
-}
-
-  
-  
-  
-  
-.navigation li a:hover{
-    color: #bf9200;
-    transition: 0.3s;
-}
-
-#link-6:hover {
-    color: #bf9200;
-    border: 1px solid #bf9200;
-    transition: 0.3s;
 }
 
 
@@ -595,7 +579,7 @@ p {
         right: 0;
         padding-right: 30px;
         display: block;
-        top: 10px;
+        top: 0;
     }
 
  
@@ -741,6 +725,12 @@ p {
 @media (min-width: 801px) and (max-width: 1280px) {
     footer {
         width: 1280px;
+    }
+  }
+
+  @media (min-width: 801px) and (max-width: 1440px) {
+    .footer-block {
+        transform: scale(0.9);
     }
   }
 /*adaptiveFooter*/
