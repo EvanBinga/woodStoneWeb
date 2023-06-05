@@ -622,4 +622,10 @@ p {
         width: 1280px;
     }
   }
+
+  @media (min-width: 801px) and (max-width: 1440px) {
+    .footer-block {
+        transform: scale(0.9);
+    }
+  }
 /*adaptiveFooter*/

@@ -186,7 +186,7 @@ main p {
     color: white;
     margin: 0 auto;
     border-radius: 20px;
-    margin-top: 40px;
+    /* margin-top: 40px; */
 }
 
 
@@ -531,7 +531,7 @@ main p {
 }
 .listTest {
     display: flex;
-
+    justify-content: center;
     position: relative;
     top: 28px;
 }
@@ -595,7 +595,8 @@ main p {
 }
 
 .imgOne1{
-    width: 400px;
+    max-width: 400px;
+    width: 100%;
 
 }
 
@@ -1389,7 +1390,38 @@ main p {
     }
 }
 
+/*adaptiveSlider*/
 
+    @media (max-width:800px) {
+        .listItemTest {
+            padding: 20px;
+            font-size: 15px;
+        }
+        .itemOne {
+            max-width: 400px;
+            width: 100%;
+        }
+    }
+
+    @media (max-width:700px) {
+        .listItemTest {
+            padding: 15px;
+            font-size: 10px;
+        }
+    }
+
+    @media (max-width:420px) {
+        .listItemTest {
+            padding: 7px;
+            font-size: 10px;
+            overflow: hidden;
+        }
+    }
+
+
+
+
+/**/
 
 
 

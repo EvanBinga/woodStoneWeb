@@ -520,3 +520,10 @@ main {
 
 
 /*adaptiveFooter*/
+
+@media (max-width:1440px) {
+    .section-links {
+        transform: scale(0.9);
+        margin-top: -140px;
+    }
+}
