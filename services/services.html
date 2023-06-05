@@ -16,7 +16,8 @@
 <body>
 
 
-
+  
+    
     <div class="container">
 
         <header>
@@ -56,9 +57,17 @@
        </header>
 
 
-
-
-
+       <!-- <button id="openPopup1" class="openPopup1">Открыть попап</button>
+       <div id="popupContainer1" class="popupContainer1">
+         <div class="popupContent1">
+           <button id="closePopup1" class="closePopup">Закрыть</button>
+           <h2>Заголовок попапа</h2>
+           <p>Текст попапа</p>
+         </div>
+       </div> -->
+       
+       
+       
     <div id="popupContainer" class="popup-container">
         <div class="popup-content">
             <button class="closePopup" onclick="closePopup()">X</button>
@@ -71,6 +80,36 @@
             <input type="number"class="placeholderForm">
         </div>
         <button class="sendFormpopup">Отправить</button>
+
+        
+        </div>
+      </div>
+
+
+      <div id="popupClick" class="popupClick">
+        <div class="popUpClickContent">
+          <button id="closePopupButton" class="popUpCloseClick">X</button>
+          <div class="planingContent">
+            <div class="imgBox">
+                <img src="/asset/img/planing.png" alt="pluning" class="pliningImg">
+                <div class="textBoxPluning">
+                <h3 class="titlePluning">
+                    Проектирование
+                </h3>
+                <p class="textPlaning">
+                    Архитектурное проектирование в стиле классицизма: Если вы хотите создать дом с традиционным и элегантным дизайном, то наше архитектурное проектирование в стиле классицизма идеально подойдет для вас. Мы создаем пространства с высокими потолками, колоннами и арками, которые подчеркивают роскошь и элегантность. В результате вы получите дом, который будет сочетать в себе элегантность и уют.
+                </p>
+                <div class="inputBoxPluning">
+                    <input type="text" class="placeholderFormPluning">
+                    <input type="number"class="placeholderFormPluning">
+                </div>
+                <button class="sendFormpopupPluning">Отправить</button>
+            </div>
+            </div>
+        </div>
+        </div>
+      </div>
+      
 
         
         </div>
@@ -102,7 +141,7 @@
                 </div>
             </a>
 
-            <a href="">
+            <a href="/services/karkas/karkashouse.html">
                 <div id="s-l-2">
                     <p>Каркасные дома</p>
                 </div>
@@ -111,13 +150,13 @@
 
             <div id="s-l-block">
 
-                <a href="">
+                <a href="/Houses/houses.html">
                     <div id="s-l-3">
                         <p>Проекты</p>
                     </div>
                 </a>
 
-                <a href="">
+                <a href="#"  id="openPopupClick" class="popUpClick">
                     <div id="s-l-4">
                         <p>Проектирование </p>
                     </div>
@@ -136,12 +175,13 @@
                 <p>WoodStone - строительная компания, полного цикла. Вникаем во все детали, детально прорабатываем
                     проект будущего дома.
                     Вы можете быть уверены в том, что Ваш дом получится идеальным внешне и комфортным для жизни</p>
-                <a href="">Связаться</a>
+                <a href="#">Связаться</a>
             </div>
 
         </section>
 
-
+      
+        
 
 
 
@@ -261,6 +301,7 @@
 
 
     <script src="/services/services-gaz_beton/gaz-beton-page/main.js"></script>
+    <script src="/services/script.js"></script>
 
 
 <script src="/aboutUs/navigation.js"></script>

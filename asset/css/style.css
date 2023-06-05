@@ -15,6 +15,11 @@ main {
     justify-content: center;
     align-items: center;
 }
+
+
+.popup-container{
+    z-index: 9999999999999;
+}
 .mainImg p {
     font-size: 40px;
     font-weight: 700;
@@ -117,10 +122,12 @@ main p {
     color: white;
 }
 
+
+
 .gridButton{
     color: white;
     background-color: #000000;
-    z-index: 999999;
+    z-index: 99;
     position: relative;
     padding: 10px;
     border-radius: 20px;
@@ -299,7 +306,7 @@ main p {
     height: 49px;
     background-color: black;
     position: relative;
-    top: -89px;
+    top: -46px;
     border-bottom-left-radius: 23px;
     color: white;
     font-weight: 400;
@@ -315,7 +322,7 @@ main p {
     height: 49px;
     background-color: black;
     position: relative;
-    top: -89px;
+    top: -46px;
     border-bottom-left-radius: 23px;
     color: white;
     font-weight: 400;
@@ -331,7 +338,7 @@ main p {
     height: 49px;
     background-color: black;
     position: relative;
-    top: -89px;
+    top: -46px;
     border-bottom-left-radius: 23px;
     color: white;
     font-weight: 400;
@@ -347,7 +354,7 @@ main p {
     height: 49px;
     background-color: black;
     position: relative;
-    top: -89px;
+    top: -46px;
     border-bottom-left-radius: 23px;
     color: white;
     font-weight: 400;
@@ -1036,6 +1043,8 @@ main p {
         margin-right: 0;
     }
     /*grid*/
+
+
 
 
     /*section1*/

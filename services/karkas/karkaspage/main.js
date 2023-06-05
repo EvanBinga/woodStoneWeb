@@ -93,10 +93,57 @@ const closePopup = () => {
   boxIconTwo.addEventListener('mouseout', function() {
     noneBoxTwo.style.opacity = '0';
   });
-
-
-
   
+
+
+
+
+//   // Получаем необходимые элементы
+// const sliderContainer = document.querySelector('.section-2-slider');
+// const sliderImages = sliderContainer.querySelectorAll('img');
+// const prevButton = document.querySelector('.bittonSlider');
+// const nextButton = document.querySelector('.bittonSliderNext');
+
+// // Устанавливаем индекс текущего слайда
+// let currentIndex = 0;
+
+// // Функция для отображения текущего слайда
+// function showSlide(index) {
+//   // Скрываем все изображения
+//   sliderImages.forEach((image) => {
+//     image.style.display = 'none';
+//   });
+
+//   // Отображаем текущий слайд
+//   sliderImages[index].style.display = 'block';
+// }
+
+// // Функция для переключения на предыдущий слайд
+// function goToPrevSlide() {
+//   currentIndex--;
+//   if (currentIndex < 0) {
+//     currentIndex = sliderImages.length - 1;
+//   }
+//   showSlide(currentIndex);
+// }
+
+// // Функция для переключения на следующий слайд
+// function goToNextSlide() {
+//   currentIndex++;
+//   if (currentIndex >= sliderImages.length) {
+//     currentIndex = 0;
+//   }
+//   showSlide(currentIndex);
+// }
+
+// // Назначаем обработчики событий для кнопок
+// prevButton.addEventListener('click', goToPrevSlide);
+// nextButton.addEventListener('click', goToNextSlide);
+
+// // Показываем первый слайд при загрузке страницы
+// showSlide(currentIndex);
+
+
 document.addEventListener('DOMContentLoaded', function() {
   const sliderImages = document.querySelector('.slider-images');
   const prevButton = document.querySelector('.buttonSliderPrev');
@@ -219,10 +266,5 @@ function openTab(tabIndex) {
 }
 document.getElementById("tab1").classList.add('active');
 document.getElementsByClassName('contentTask')[0].classList.add('show');
-
-
-
-
-
 
 

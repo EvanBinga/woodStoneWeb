@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Газобетон</title>
+    <link rel="stylesheet" href="/services/services-gaz_beton/services-gaz_beton.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/asset/css/bassed.css">
+</head>
+<body>
+    <div class="container">
+
+        <header>
+            <nav>
+                <div class="navigation">
+                    <span>
+                        <ul>
+    
+                            
+    
+                            <li><a id="link-1" href="/aboutUs/aboutUs.html">о компании</a></li>
+    
+                            <li><a href="/services/services.html">Услуги</a></li>
+                            <li><a id="link-3" href="/Houses/houses.html">Дома</a></li>
+                        </ul>
+                    </span>
+                    <span>
+                        <a href="/index.html"><img src="/asset/img/logo.png" alt="" class="logo"></a>
+                        <div class="menu-btn">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </span>
+                    <span>
+                        <ul>
+                            <li><a id="link-4" href="/reviews/reviews.html">Отзывы</a></li>
+                            <li><a id="link-5" href="/contacts/index.html">Контакты</a></li>
+                            <li class="callbackButton" id="link-6" onclick="openPopup()">Позвонить мне</li>
+                        </ul>
+                    </span>
+                </div>
+            </nav>
+            <a href="/index.html"><img src="/asset/img/logo.png" alt="" class="logoTwo"></a>
+    
+            
+           </header>
+
+
+
+           <div id="popupContainer" class="popup-container">
+            <div class="popup-content">
+                <button class="closePopup" onclick="closePopup()">X</button>
+              <h2 class="popupTitle">Получите консультацию по строительству загородных домов!</h2>
+              <img src="/asset/img/popupHouseOne.png" alt="popupImg" class="popUpImg">
+    
+              <p class="popUpText">Мы готовы помочь вам воплотить мечту о вашем идеальном загородном доме. Наша команда опытных специалистов сделает все возможное, чтобы ваш дом стал олицетворением комфорта, красоты и качества. Не упустите шанс создать свое уютное гнездышко в окружении природы!</p>
+              <div class="inputBox">
+                <input type="text" class="placeholderForm">
+                <input type="number"class="placeholderForm">
+            </div>
+            <button class="sendFormpopup">Отправить</button>
+    
+            
+            </div>
+          </div>
+          
+          <div id="overlay" class="overlay"></div>
+          
+
+
+
+        <main>
+            <div class="tittle">
+                <h1>Каркасные дома</h1>
+            </div>
+
+            <div class="main-slider-btn">
+                <div id="gaz-btn-1" class="tab-btn active" onclick="changeTab(1)">
+                    <p>1 этаж</p>
+                </div>
+
+                <div id="gaz-btn-2"class="tab-btn" onclick="changeTab(2)">
+                    <p>2 и более этажей</p>
+                </div>
+
+                <div id="gaz-btn-area"  class="tab-btn" onclick="changeTab(3)">
+                    <p>площадь</p>
+                </div>
+            </div>
+        </main>
+
+        <div class="content">
+
+            <div class="item" id="item1">
+            <div class="content-row-1">
+                <a href="/services/karkas/karkaspage/karkas.html">
+                    <div class="content-row-1-block">
+                        <img src="/services/img/gaz-beton1.png" alt="">
+                        <p>Дома - 33</p>
+                        <ul>
+                            <li>от 23 000р в месяц</li>
+                            <li>Площадь - 123кв/м</li>
+                            <li>Газобетон</li>
+                        </ul>
+                    </div>
+                </a>
+
+                <div class="content-row-1-block">
+                    <img src="/services/img/gaz-beton1.png" alt="">
+                    <p>Дома - 33</p>
+                    <ul>
+                        <li>от 23 000р в месяц</li>
+                        <li>Площадь - 123кв/м</li>
+                        <li>Газобетон</li>
+                    </ul>
+                </div>
+                <div class="content-row-1-block">
+                    <img src="/services/img/gaz-beton1.png" alt="">
+                    <p>Дома - 33</p>
+                    <ul>
+                        <li>от 23 000р в месяц</li>
+                        <li>Площадь - 123кв/м</li>
+                        <li>Газобетон</li>
+                    </ul>
+                </div>
+
+            </div>
+            <div class="content-row-1" id="row2">
+                <div class="content-row-1-block">
+                    <img src="/services/img/gaz-beton1.png" alt="">
+                    <p>Дома - 33</p>
+                    <ul>
+                        <li>от 23 000р в месяц</li>
+                        <li>Площадь - 123кв/м</li>
+                        <li>Газобетон</li>
+                    </ul>
+                </div>
+
+                <div class="content-row-1-block">
+                    <img src="/services/img/gaz-beton1.png" alt="">
+                    <p>Дома - 33</p>
+                    <ul>
+                        <li>от 23 000р в месяц</li>
+                        <li>Площадь - 123кв/м</li>
+                        <li>Газобетон</li>
+                    </ul>
+                </div>
+                <div class="content-row-1-block">
+                    <img src="/services/img/gaz-beton1.png" alt="">
+                    <p>Дома - 33</p>
+                    <ul>
+                        <li>от 23 000р в месяц</li>
+                        <li>Площадь - 123кв/м</li>
+                        <li>Газобетон</li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+
+<!--  -->
+<div class="item" id="item2">
+    <div class="content-row-1">
+        <a href="/services/services-gaz_beton/gaz-beton-page/gaz-page.html">
+            <div class="content-row-1-block">
+                <img src="/services/img/gaz-beton1.png" alt="">
+                <p>Дома - 44</p>
+                <ul>
+                    <li>от 23 000р в месяц</li>
+                    <li>Площадь - 123кв/м</li>
+                    <li>Газобетон</li>
+                </ul>
+            </div>
+        </a>
+
+        <div class="content-row-1-block">
+            <img src="/services/img/gaz-beton1.png" alt="">
+            <p>Дома - 44</p>
+            <ul>
+                <li>от 23 000р в месяц</li>
+                <li>Площадь - 123кв/м</li>
+                <li>Газобетон</li>
+            </ul>
+        </div>
+        <div class="content-row-1-block">
+            <img src="/services/img/gaz-beton1.png" alt="">
+            <p>Дома - 44</p>
+            <ul>
+                <li>от 23 000р в месяц</li>
+                <li>Площадь - 123кв/м</li>
+                <li>Газобетон</li>
+            </ul>
+        </div>
+
+    </div>
+    <div class="content-row-1" id="row2">
+        <div class="content-row-1-block">
+            <img src="/services/img/gaz-beton1.png" alt="">
+            <p>Дома - 44</p>
+            <ul>
+                <li>от 23 000р в месяц</li>
+                <li>Площадь - 123кв/м</li>
+                <li>Газобетон</li>
+            </ul>
+        </div>
+
+        <div class="content-row-1-block">
+            <img src="/services/img/gaz-beton1.png" alt="">
+            <p>Дома - 44</p>
+            <ul>
+                <li>от 23 000р в месяц</li>
+                <li>Площадь - 123кв/м</li>
+                <li>Газобетон</li>
+            </ul>
+        </div>
+        <div class="content-row-1-block">
+            <img src="/services/img/gaz-beton1.png" alt="">
+            <p>Дома - 44</p>
+            <ul>
+                <li>от 23 000р в месяц</li>
+                <li>Площадь - 123кв/м</li>
+                <li>Газобетон</li>
+            </ul>
+        </div>
+    </div>
+
+</div>
+<!--  -->
+<div class="item" id="item3">
+    <div class="content-row-1">
+        <a href="/services/services-gaz_beton/gaz-beton-page/gaz-page.html">
+            <div class="content-row-1-block">
+                <img src="/services/img/gaz-beton1.png" alt="">
+                <p>Дома - 55</p>
+                <ul>
+                    <li>от 23 000р в месяц</li>
+                    <li>Площадь - 123кв/м</li>
+                    <li>Газобетон</li>
+                </ul>
+            </div>
+        </a>
+
+        <div class="content-row-1-block">
+            <img src="/services/img/gaz-beton1.png" alt="">
+            <p>Дома - 55</p>
+            <ul>
+                <li>от 23 000р в месяц</li>
+                <li>Площадь - 123кв/м</li>
+                <li>Газобетон</li>
+            </ul>
+        </div>
+        <div class="content-row-1-block">
+            <img src="/services/img/gaz-beton1.png" alt="">
+            <p>Дома - 55</p>
+            <ul>
+                <li>от 23 000р в месяц</li>
+                <li>Площадь - 123кв/м</li>
+                <li>Газобетон</li>
+            </ul>
+        </div>
+
+    </div>
+    <div class="content-row-1" id="row2">
+        <div class="content-row-1-block">
+            <img src="/services/img/gaz-beton1.png" alt="">
+            <p>Дома - 55</p>
+            <ul>
+                <li>от 23 000р в месяц</li>
+                <li>Площадь - 123кв/м</li>
+                <li>Газобетон</li>
+            </ul>
+        </div>
+
+        <div class="content-row-1-block">
+            <img src="/services/img/gaz-beton1.png" alt="">
+            <p>Дома - 55</p>
+            <ul>
+                <li>от 23 000р в месяц</li>
+                <li>Площадь - 123кв/м</li>
+                <li>Газобетон</li>
+            </ul>
+        </div>
+        <div class="content-row-1-block">
+            <img src="/services/img/gaz-beton1.png" alt="">
+            <p>Дома - 55</p>
+            <ul>
+                <li>от 23 000р в месяц</li>
+                <li>Площадь - 123кв/м</li>
+                <li>Газобетон</li>
+            </ul>
+        </div>
+    </div>
+
+</div>
+
+
+
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <footer>
+
+            <div class="adaptiveFooter">
+                <ul class="adaptivList">
+                    <a href=""><li class="adaptivListItem">услуги</li></a>
+                    <a href=""><li class="adaptivListItem">контакты</li></a>
+                    <a href=""><li class="adaptivListItem">отзывы</li></a>
+                    <a href=""><li class="adaptivListItem">о компании</li></a>
+                    <a href=""><li class="adaptivListItem">дома</li></a>
+                    <a href=""><li class="adaptivListItem">журнал</li></a>
+                </ul>
+                
+                <div class="footerAdress">
+                    <h1 class="footerAdress">Санкт - Петербургул. Маяковского д.13</h1>
+                    <p class="footerNumber">8 800 123 - 23 - 23</p>
+                </div>
+        
+                <div id="footerIcons">
+                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                    <a href=""><i class="fa-brands fa-vk"></i></a>
+                    <a href=""><i class="fa-brands fa-telegram"></i></a>
+                </div>
+            </div>
+        
+        
+            <div class="footer-block">
+        
+                <a href="/index.html">
+                    <div>
+                        <img src="/asset/img/WoodStone.png" alt="">
+                        
+                    </div>
+                </a>
+        
+        
+                <div id="footer-block-link-1">
+        
+                    <div id="footer-block-link-1-content-1">
+                        <ul>
+                            <li><a href="">услуги</a></li>
+                            <li><a href="">контакты</a></li>
+                            <li><a href="">отзывы</a></li>
+                        </ul>
+                    </div>
+        
+        
+                    <div id="footer-block-link-1-content-2">
+                        <ul>
+                            <li><a href="">о компании</a></li>
+                            <li><a href="">дома</a></li>
+                        </ul>
+                    </div>
+                    
+                    
+        
+                </div>
+                
+                <div id="footer-block-link-2">
+                    
+                    <div id="footer-block-link-2-content-1">
+                        <ul>
+                            <li><a href="">Проекты в работе</a></li>
+                            <li><a href="">Проекты домов</a></li>
+                            <li><a href="">Строящиеся дома</a></li>
+                        </ul>
+                    </div>
+        
+                    <div id="footer-block-link-2-content-2">
+                        <ul>
+                            <li><a href="">Дома в родаже</a></li>
+                            <li><a href="">Участки в продаже</a></li>
+                            <li><a href="">Индивидуальное <br>
+                                проектирование</a></li>
+                        </ul>
+                        
+                    </div>
+                    
+                </div>
+        
+        
+        
+                <div id="footer-icons">
+                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                    <a href=""><i class="fa-brands fa-vk"></i></a>
+                    <a href=""><i class="fa-brands fa-telegram"></i></a>
+                </div>
+        
+        
+        
+        
+                <div id="footer-border-1"></div>
+                <div id="footer-border-2"></div>
+                <div id="footer-border-3"></div>
+                
+        
+        
+                
+            </div>
+            <div class="footer-adress">
+                <h1>Санкт - Петербургул. Маяковского д.13</h1>
+                <p>8 800 123 - 23 - 23</p>
+            </div>
+        
+            
+        </footer>
+
+
+
+    </div>
+
+    <script src="/services/services-gaz_beton/gaz-beton-page/main.js"></script>
+    <script src="/aboutUs/navigation.js"></script>
+    <script src="https://kit.fontawesome.com/1fb243072c.js" crossorigin="anonymous"></script>
+</body>
+</html>
