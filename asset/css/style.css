@@ -557,12 +557,56 @@ main p {
 }
 
 .checkbox{
-    margin-left: 230px;
+    position: relative;
+    left: 265px;
+    top: 5px
 }
 
-.checkboxM{
+.checkboxx{
+    position: relative;
+    left: 240px;
+    top: 5px
 
 }
+
+.checkbox1{
+    position: relative;
+    left: 250px;
+    top: 5px
+}
+
+.checkbox2{
+    position: relative;
+    left: 250px;
+    top: 5px
+}
+
+.checkbox2x{
+    position: relative;
+    left: 150px;
+    top: 5px
+}
+
+
+.checkbox2xx{
+    position: relative;
+    left: 210px;
+    top: 5px
+}
+
+.checkbox3{
+    position: relative;
+    left: 230px;
+    top: 5px
+}
+
+.checkbox4{
+    position: relative;
+    left: 200px;
+    top: 5px
+}
+
+
 
 .listItemTest.active {
   background-color: #ccc;
@@ -576,6 +620,42 @@ main p {
   display: none;
 }
 
+
+
+
+.textTestForm {
+    color: white;
+    margin-left: 60px;
+    margin-top: 20px;
+    font-size: 20px;
+    line-height: 40px;
+}
+.inputBoxTest {
+    margin-left: 60px;
+    margin-top: 30px;
+
+}
+.numberInputTest {
+    width: 400px;
+    height: 40px;
+    display: block;
+    padding-left: 10px;
+
+}
+.nameInputTest {
+    width: 400px;
+    height: 40px;
+    display: block;
+    padding-left: 10px;
+    margin-top: 30px;
+
+}
+.sendFormText {
+    margin-left: 60px;
+    margin-top: 100px;
+    width: 300px;
+    height: 40px;
+}
 /* 
  */
 
