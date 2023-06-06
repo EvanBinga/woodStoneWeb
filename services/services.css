@@ -645,11 +645,7 @@ main {
         background-color: #000000e2;
     }
 
-    .popUpCloseClick{
-        position: relative;
-        left: 320px;
-        top: 50px;
-    }
+
 
     .textBoxPluning h3{
         font-size: 21px;
