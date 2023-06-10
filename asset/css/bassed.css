@@ -276,7 +276,7 @@ a {
 
 nav {
     display: flex;
-    width: 1280px;
+    width: 1110px;
     margin: 0 auto;
     height: 71px;
 
@@ -300,11 +300,11 @@ nav span:first-child {
 }
 
 nav span:first-child a {
-    margin-right: 85px;
+    margin-right: 45px;
 }
 
 nav span:last-child {
-    margin-left: 85px;
+    margin-left: 45px;
 }
 
 /**/
@@ -313,25 +313,27 @@ nav ul {
 
 }
 
-
-
-#link-1 {
-    color: #8C681B;
+.listOne{
+    position: relative;
+    top: -2px;
 }
 
+
 #link-3 {
-    margin: 0;
+
+
+
 }
 
 #link-4 {
     margin: 0;
-    margin-top: 12px;
+    margin-top: 8px;
     display: block;
     margin-right: 72px;
 }
 
 #link-5 {
-    margin-top: 12px;
+    margin-top: 8px;
     display: block;
 }
 
@@ -345,6 +347,7 @@ nav ul {
     align-items: center;
     position: relative;
     left: 53px;
+    top: -5px;
 }
 
 
@@ -489,6 +492,7 @@ p {
     }
         .logo{
        display: none;
+       
         }
     
         .logoTwo{

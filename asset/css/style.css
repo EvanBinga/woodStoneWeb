@@ -40,6 +40,12 @@ nav ul {
     
 }
 
+.logo{
+    position: relative;
+    top: -3px;
+    width: 85px;
+}
+
 
 #link-1 {
     /* color: #8C681B; */
@@ -68,9 +74,16 @@ nav ul {
     align-items: center;
     position: relative;
     left: 53px;
+    cursor: pointer;
 }
 
 
+#link-6:hover {
+    border: 1px solid #8C681B;
+    color: #8C681B;
+    cursor: pointer;
+    transition: 0.4s;
+}
 
 
 
@@ -359,7 +372,7 @@ main p {
     height: 49px;
     background-color: black;
     position: relative;
-    top: -89px;
+    top: -54px;
     border-bottom-left-radius: 23px;
     color: white;
     font-weight: 400;
@@ -375,7 +388,7 @@ main p {
     height: 49px;
     background-color: black;
     position: relative;
-    top: -89px;
+    top: -54px;
     border-bottom-left-radius: 23px;
     color: white;
     font-weight: 400;
@@ -391,7 +404,7 @@ main p {
     height: 49px;
     background-color: black;
     position: relative;
-    top: -89px;
+    top: -54px;
     border-bottom-left-radius: 23px;
     color: white;
     font-weight: 400;
@@ -407,7 +420,7 @@ main p {
     height: 49px;
     background-color: black;
     position: relative;
-    top: -89px;
+    top: -54px;
     border-bottom-left-radius: 23px;
     color: white;
     font-weight: 400;
@@ -423,7 +436,7 @@ main p {
 
 .section-1 { 
     background-color: #2B2A29;
-    height: 1331px;
+    height: 931px;
     margin-top: 118px;
 }
 
@@ -435,43 +448,50 @@ main p {
 }
 /**/
 .section-1-row-block-1 {
-    margin-top: 125px;
+    margin-top: 225px;
+    margin: 0 auto;
+
 }
 .section-1-row-block-1 h1 {
     color: rgba(140, 104, 27, 1);
     font-weight: 400;
-    font-size: 40px;
+    font-size: 30px;
     margin-left: 10px;
+    position: relative;
+    top: 70px;
 }
+
 .section-1-row-block-1 p:nth-child(2) {
-    margin-top: 40px;
+    margin-top: 90px;
     color: #FFFFFF;
     font-weight: 400;
-    font-size: 30px;
+    font-size: 22px;
     width: 385px;
     margin-left: 10px;
 }
+
 .section-1-row-block-1 p:nth-child(3) {
-    margin-top: 20px;
+    margin-top: 25px;
     color: white;
-    font-size: 20px;
+    font-size: 14px;
     line-height: 33px;
-    width: 647px;
+    width: 547px;
     margin-left: 10px;
 }
 
 
 .section-1-row-block-2 img {
-    width: 578px;
-    height: 564px;
+    width: 378px;
+    height: 344px;
     margin-top: 112px;
-    margin-left: 40px;
+    position: relative;
+    left: -90px;
 }
 /**/
 .section-1-years {
     margin: 0 auto;
-    width: 1280px;
-    margin-top: 121px;
+    width: 980px;
+    margin-top: 141px;
     overflow: hidden;
 }
 .section-1-years-row {
@@ -480,15 +500,15 @@ main p {
 }
 .section-1-years p {
     font-weight: 400;
-    font-size: 40px;
+    font-size: 25px;
     color: #8C681B;
      margin-left: 10px; 
 }
 .section-1-years-row div {
-    width: 300px;
-    height: 209px;
+    width: 230px;
+    height: 169px;
     border: solid rgba(126, 108, 85, 1);
-    
+
     margin-top: 21px;
 }
 
@@ -496,8 +516,8 @@ main p {
 
 .section-1-years-row h1 {
     text-align: center;
-    font-weight: 400;
-    font-size: 76.494px;
+    font-weight: 300;
+    font-size: 46.494px;
     line-height: 28px;
     color: #AA9069;
     margin-top: 40px;
@@ -505,12 +525,12 @@ main p {
 }
 .section-1-years-row p {
     font-weight: 400;
-    font-size: 21.2483px;
+    font-size: 14.2483px;
     line-height: 28px;
     color: #FFFFFF;
-    width: 299px;
+    width: 199px;
     text-align: center;
-    margin-top: 51px;
+    margin-top: 11px;
 
 
 }
@@ -555,10 +575,10 @@ main p {
     justify-content: center;
 }
 .boxOneTest {
-    background-color: rgb(24, 12, 0);
+background: #1e1e1e;
     width: 1255px;
     left: -10px;
-    height: 490px;
+    height: 520px;
     position: relative;
     top: 29px;
     margin: 0 auto;
